@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ali Salman">
 
-<title>Subgroup Analysis: Obesity (BMI &gt;= 30) – Financial Toxicity of Universal GLP-1RA and SGLT2i Therapy</title>
+<title>AHA Abstract Analysis – Financial Toxicity of Universal GLP-1RA and SGLT2i Therapy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -95,33 +96,10 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-glp-1-ra-analyses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">GLP-1 RA Analyses</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-glp-1-ra-analyses">    
-        <li>
-    <a class="dropdown-item" href="../quarto/index.html">
- <span class="dropdown-text">Overall Cohort</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../quarto/index.html"> 
+<span class="menu-text">GLP-1 RA Overall Analysis</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../quarto/overweight_comorbidity.html">
- <span class="dropdown-text">Overweight (BMI 27.0-29.9) with Comorbidity</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../quarto/obese.html">
- <span class="dropdown-text">Obesity (BMI &gt;= 30)</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../quarto/obese_diabetic.html">
- <span class="dropdown-text">Obesity with Type 2 Diabetes</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../quarto/obese_nondiabetic.html">
- <span class="dropdown-text">Obesity without Type 2 Diabetes</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="../quarto/sglt2i_overall.html"> 
 <span class="menu-text">SGLT2i Overall Analysis</span></a>
@@ -129,6 +107,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../quarto/combined_overall.html"> 
 <span class="menu-text">Combined GLP-1RA &amp; SGLT2i Analysis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../quarto/aha_abstract_analysis.html" aria-current="page"> 
+<span class="menu-text">AHA Abstract Analysis</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -149,14 +131,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Subgroup Analysis: Obesity (BMI &gt;= 30)</h1>
+<h1 class="title">AHA Abstract Analysis</h1>
 </div>
 
 
+<div class="quarto-title-meta-author column-page">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Ali Salman <a href="https://orcid.org/0009-0001-1102-226X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Dow University of Health Sciences
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta column-page">
 
-    
+      
   
     
   </div>
@@ -171,12 +166,10 @@ ul.task-list li input[type="checkbox"] {
 <p>STEP 1: Total MEPS Population (2022) | N = 22,431</p>
 <p>Exclusion 1: Pediatric &lt; 18 | n = 4,330</p>
 <p>STEP 2: Adult Population (Age &gt;= 18) | N = 18,101 (80.7%)</p>
-<p>Exclusion 2: Does Not Meet FDA Eligibility (Not obese and not overweight with &gt;=1 qualifying weight-related comorbidity) | n = 13,046 (72.1%)</p>
-<p>STEP 3: US Adults Meeting Base FDA Eligibility | N = 5,055 (27.9%)</p>
-<p>Exclusion 3: Does Not Meet Selected Subgroup (Does not meet obesity criteria) | n = 1,293 (25.6%)</p>
-<p>STEP 4: Analytic Subgroup (US Adults with BMI &gt;=30) | N = 3,762 (74.4%)</p>
-<p>Exclusion 4: Invalid/Other Insurance | n = 77 (2.0%)</p>
-<p>STEP 5: Final Analytic Cohort for US Adults with BMI &gt;=30 (Valid Insurance) | N = 3,685 (98.0%)</p>
+<p>Exclusion 2: Does Not Meet Obesity Inclusion Criteria (BMI &lt;30 and no documented clinical obesity diagnosis) | n = 14,339 (79.2%)</p>
+<p>STEP 3: US Adults with Obesity (AHA Abstract Cohort) | N = 3,762 (20.8%)</p>
+<p>Exclusion 3: Invalid/Other Insurance | n = 77 (2.0%)</p>
+<p>STEP 4: Final Analytic Cohort for US Adults with Obesity (Valid Insurance) | N = 3,685 (98.0%)</p>
 <hr>
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
@@ -916,7 +909,7 @@ Census Region
 </tr>
 <tr class="gt_sourcenotes">
 <td class="gt_sourcenote" colspan="6">
-<span data-qmd-base64="Kk5vdGVzOiogTUVQUyAyMDIyIGNyb3NzLXNlY3Rpb25hbCBlc3RpbWF0ZXMuIFZhbHVlcyByZXByZXNlbnQgd2VpZ2h0ZWQgbmF0aW9uYWwgZXN0aW1hdGVzIGZvciBVUyBBZHVsdHMgd2l0aCBCTUkgPj0zMC4gVGhlIGFuYWx5dGljIHN1Ymdyb3VwIGlzIGRlZmluZWQgYXMgb2Jlc2l0eSAoYm9keSBtYXNzIGluZGV4ID49MzAga2cvbV4yIG9yIGRvY3VtZW50ZWQgY2xpbmljYWwgb2Jlc2l0eSBkaWFnbm9zaXMpLiBHTFAtMVJBIGluZGljYXRlcyBnbHVjYWdvbi1saWtlIHBlcHRpZGUtMSByZWNlcHRvciBhZ29uaXN0LiBTR0xUMmkgaW5kaWNhdGVzIHNvZGl1bS1nbHVjb3NlIGNvdHJhbnNwb3J0ZXIgMiBpbmhpYml0b3IuIEluY29tZSBjYXRlZ29yaWVzIGFyZSBiYXNlZCBvbiB0aGUgRmVkZXJhbCBQb3ZlcnR5IExldmVsIChGUEwpLiBDb3N0cyBhcmUgcmVwb3J0ZWQgaW4gSmFuIDIwMjYgVVMgZG9sbGFycy4="><span class="gt_from_md"><em>Notes:</em> MEPS 2022 cross-sectional estimates. Values represent weighted national estimates for US Adults with BMI &gt;=30. The analytic subgroup is defined as obesity (body mass index &gt;=30 kg/m^2 or documented clinical obesity diagnosis). GLP-1RA indicates glucagon-like peptide-1 receptor agonist. SGLT2i indicates sodium-glucose cotransporter 2 inhibitor. Income categories are based on the Federal Poverty Level (FPL). Costs are reported in Jan 2026 US dollars.</span></span>
+<span data-qmd-base64="Kk5vdGVzOiogTUVQUyAyMDIyIGNyb3NzLXNlY3Rpb25hbCBlc3RpbWF0ZXMuIFZhbHVlcyByZXByZXNlbnQgd2VpZ2h0ZWQgbmF0aW9uYWwgZXN0aW1hdGVzIGZvciBVUyBBZHVsdHMgd2l0aCBPYmVzaXR5LiBUaGUgYW5hbHl0aWMgY29ob3J0IGlzIGRlZmluZWQgYXMgb2Jlc2l0eSAoYm9keSBtYXNzIGluZGV4ID49MzAga2cvbV4yIG9yIGRvY3VtZW50ZWQgY2xpbmljYWwgb2Jlc2l0eSBkaWFnbm9zaXMpLiBHTFAtMVJBIGluZGljYXRlcyBnbHVjYWdvbi1saWtlIHBlcHRpZGUtMSByZWNlcHRvciBhZ29uaXN0LiBTR0xUMmkgaW5kaWNhdGVzIHNvZGl1bS1nbHVjb3NlIGNvdHJhbnNwb3J0ZXIgMiBpbmhpYml0b3IuIEluY29tZSBjYXRlZ29yaWVzIGFyZSBiYXNlZCBvbiB0aGUgRmVkZXJhbCBQb3ZlcnR5IExldmVsIChGUEwpLiBDb3N0cyBhcmUgcmVwb3J0ZWQgaW4gSmFuIDIwMjYgVVMgZG9sbGFycy4="><span class="gt_from_md"><em>Notes:</em> MEPS 2022 cross-sectional estimates. Values represent weighted national estimates for US Adults with Obesity. The analytic cohort is defined as obesity (body mass index &gt;=30 kg/m^2 or documented clinical obesity diagnosis). GLP-1RA indicates glucagon-like peptide-1 receptor agonist. SGLT2i indicates sodium-glucose cotransporter 2 inhibitor. Income categories are based on the Federal Poverty Level (FPL). Costs are reported in Jan 2026 US dollars.</span></span>
 </td>
 </tr>
 </tfoot>
@@ -1535,7 +1528,7 @@ $594 (500, 705)
 <tfoot>
 <tr class="gt_sourcenotes">
 <td class="gt_sourcenote" colspan="7">
-<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBCTUkgPj0zMC4gTUVQUyAyMDIyIGNyb3NzLXNlY3Rpb25hbCBlc3RpbWF0ZXMuIFZhbHVlcyByZXByZXNlbnQgbWVhbiBhbm51YWwgb3V0LW9mLXBvY2tldCAoT09QKSBleHBlbmRpdHVyZXMuIENvc3RzIGFyZSByZXBvcnRlZCBpbiBKYW4gMjAyNiBVUyBkb2xsYXJzLiBDb25maWRlbmNlIGludGVydmFscyAoOTUlKSB3ZXJlIGNhbGN1bGF0ZWQgdXNpbmcgYm9vdHN0cmFwLWVzdGltYXRlZCBzdGFuZGFyZCBlcnJvcnMgKDIwMDAgcmVwbGljYXRlcykgYW5kIGxvZy10cmFuc2Zvcm1hdGlvbiB0byBhY2NvdW50IGZvciB0aGUgcmlnaHQtc2tld2VkIGRpc3RyaWJ1dGlvbiBvZiBoZWFsdGggY2FyZSBjb3N0cy4gRXN0aW1hdGVzIG1hcmtlZCB3aXRoIGFuIGFzdGVyaXNrICgqKSBhcmUgY29uc2lkZXJlZCBzdGF0aXN0aWNhbGx5IHVucmVsaWFibGUgcGVyIHRoZSAyMDE3IE5hdGlvbmFsIENlbnRlciBmb3IgSGVhbHRoIFN0YXRpc3RpY3Mgc3RhbmRhcmRzIChkdWUgdG8gaGlnaCByZWxhdGl2ZSBzdGFuZGFyZCBlcnJvciwgaW5zdWZmaWNpZW50IGVmZmVjdGl2ZSBzYW1wbGUgc2l6ZSwgb3IgbG93IGRlZ3JlZXMgb2YgZnJlZWRvbSku"><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with BMI &gt;=30. MEPS 2022 cross-sectional estimates. Values represent mean annual out-of-pocket (OOP) expenditures. Costs are reported in Jan 2026 US dollars. Confidence intervals (95%) were calculated using bootstrap-estimated standard errors (2000 replicates) and log-transformation to account for the right-skewed distribution of health care costs. Estimates marked with an asterisk (*) are considered statistically unreliable per the 2017 National Center for Health Statistics standards (due to high relative standard error, insufficient effective sample size, or low degrees of freedom).</span></span>
+<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBPYmVzaXR5LiBNRVBTIDIwMjIgY3Jvc3Mtc2VjdGlvbmFsIGVzdGltYXRlcy4gVmFsdWVzIHJlcHJlc2VudCBtZWFuIGFubnVhbCBvdXQtb2YtcG9ja2V0IChPT1ApIGV4cGVuZGl0dXJlcy4gQ29zdHMgYXJlIHJlcG9ydGVkIGluIEphbiAyMDI2IFVTIGRvbGxhcnMuIENvbmZpZGVuY2UgaW50ZXJ2YWxzICg5NSUpIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBib290c3RyYXAtZXN0aW1hdGVkIHN0YW5kYXJkIGVycm9ycyAoMjAwMCByZXBsaWNhdGVzKSBhbmQgbG9nLXRyYW5zZm9ybWF0aW9uIHRvIGFjY291bnQgZm9yIHRoZSByaWdodC1za2V3ZWQgZGlzdHJpYnV0aW9uIG9mIGhlYWx0aCBjYXJlIGNvc3RzLiBFc3RpbWF0ZXMgbWFya2VkIHdpdGggYW4gYXN0ZXJpc2sgKCopIGFyZSBjb25zaWRlcmVkIHN0YXRpc3RpY2FsbHkgdW5yZWxpYWJsZSBwZXIgdGhlIDIwMTcgTmF0aW9uYWwgQ2VudGVyIGZvciBIZWFsdGggU3RhdGlzdGljcyBzdGFuZGFyZHMgKGR1ZSB0byBoaWdoIHJlbGF0aXZlIHN0YW5kYXJkIGVycm9yLCBpbnN1ZmZpY2llbnQgZWZmZWN0aXZlIHNhbXBsZSBzaXplLCBvciBsb3cgZGVncmVlcyBvZiBmcmVlZG9tKS4="><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with Obesity. MEPS 2022 cross-sectional estimates. Values represent mean annual out-of-pocket (OOP) expenditures. Costs are reported in Jan 2026 US dollars. Confidence intervals (95%) were calculated using bootstrap-estimated standard errors (2000 replicates) and log-transformation to account for the right-skewed distribution of health care costs. Estimates marked with an asterisk (*) are considered statistically unreliable per the 2017 National Center for Health Statistics standards (due to high relative standard error, insufficient effective sample size, or low degrees of freedom).</span></span>
 </td>
 </tr>
 </tfoot>
@@ -1547,7 +1540,7 @@ $594 (500, 705)
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Table 3. Financial Toxicity Under Universal GLP-1RA With TrumpRx Substitution.</td>
+<td>Table 3. Financial Toxicity Under Simultaneous Universal GLP-1RA and Targeted SGLT2i Therapy With Rational Buyer Substitution.</td>
 </tr>
 </tbody>
 </table>
@@ -1617,23 +1610,23 @@ Excl. Drug Cost (95% CI)
 <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="2" colspan="1" scope="col" id="Baseline-(95%-CI)">
 Baseline (95% CI)
 </th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="2" colspan="1" scope="col" id="Universal-GLP-1RA-(95%-CI)">
-Universal GLP-1RA (95% CI)
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="2" colspan="1" scope="col" id="Universal-GLP-1RA-+-Targeted-SGLT2i-(95%-CI)">
+Universal GLP-1RA + Targeted SGLT2i (95% CI)
 </th>
-<th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="3" scope="colgroup" id="TrumpRx ($6,037/yr)">
+<th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="3" scope="colgroup" id="Rational Buyer Substitution ($6,037 GLP-1RA Cap + $120 SGLT2i Cap)">
 <div class="gt_column_spanner">
-TrumpRx ($6,037/yr)
+Rational Buyer Substitution ($6,037 GLP-1RA Cap + $120 SGLT2i Cap)
 </div>
 </th>
 </tr>
 <tr class="gt_col_headings">
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="FT_TrumpRx">
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="FT_Rational">
 Revised FT, % (95% CI)
 </th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Pct_Ben_TrumpRx">
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Pct_Ben_Rational">
 Benefiting, % (95% CI)
 </th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Savings_TrumpRx">
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Savings_Rational">
 Beneficiary Savings, $ (95% CI)
 </th>
 </tr>
@@ -1649,22 +1642,22 @@ Overall Population
 Overall Population
 </th>
 <td headers="Overall Population stub_1_1 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-17.7 (16.1, 19.3)
+17.6 (16.1, 19.3)
 </td>
 <td headers="Overall Population stub_1_1 Baseline (95% CI)" class="gt_row gt_center">
 17.7 (16.1, 19.3)
 </td>
-<td headers="Overall Population stub_1_1 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-22.2 (20.3, 24.1)
+<td headers="Overall Population stub_1_1 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+22.6 (20.7, 24.5)
 </td>
-<td headers="Overall Population stub_1_1 FT_TrumpRx" class="gt_row gt_center">
+<td headers="Overall Population stub_1_1 FT_Rational" class="gt_row gt_center">
 21.6 (19.7, 23.5)
 </td>
-<td headers="Overall Population stub_1_1 Pct_Ben_TrumpRx" class="gt_row gt_center">
-2.8 (2.1, 3.7)
+<td headers="Overall Population stub_1_1 Pct_Ben_Rational" class="gt_row gt_center">
+12.0 (10.8, 13.3)
 </td>
-<td headers="Overall Population stub_1_1 Savings_TrumpRx" class="gt_row gt_center">
-$6876 (6663, 7096)
+<td headers="Overall Population stub_1_1 Savings_Rational" class="gt_row gt_center">
+$2229 (1892, 2627)
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -1682,17 +1675,17 @@ Medicaid or Dual Eligible
 <td headers="Insurance Type stub_1_2 Baseline (95% CI)" class="gt_row gt_center">
 30.8 (26.5, 35.3)
 </td>
-<td headers="Insurance Type stub_1_2 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-33.6 (29.2, 38.2)
+<td headers="Insurance Type stub_1_2 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+33.6 (29.3, 38.2)
 </td>
-<td headers="Insurance Type stub_1_2 FT_TrumpRx" class="gt_row gt_center">
-33.6 (29.2, 38.2)
+<td headers="Insurance Type stub_1_2 FT_Rational" class="gt_row gt_center">
+33.6 (29.3, 38.2)
 </td>
-<td headers="Insurance Type stub_1_2 Pct_Ben_TrumpRx" class="gt_row gt_center">
-0.7 (0.3, 1.6)
+<td headers="Insurance Type stub_1_2 Pct_Ben_Rational" class="gt_row gt_center">
+2.0 (0.9, 3.6)
 </td>
-<td headers="Insurance Type stub_1_2 Savings_TrumpRx" class="gt_row gt_center">
-$6087 (6087, 6087)*
+<td headers="Insurance Type stub_1_2 Savings_Rational" class="gt_row gt_center">
+$3447 (2115, 5618)
 </td>
 </tr>
 <tr>
@@ -1700,22 +1693,22 @@ $6087 (6087, 6087)*
 Medicare
 </th>
 <td headers="Insurance Type stub_1_3 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-16.9 (14.1, 20.1)
+16.8 (14.0, 20.0)
 </td>
 <td headers="Insurance Type stub_1_3 Baseline (95% CI)" class="gt_row gt_center">
 16.9 (14.1, 20.1)
 </td>
-<td headers="Insurance Type stub_1_3 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-22.3 (18.9, 25.9)
+<td headers="Insurance Type stub_1_3 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+23.3 (19.8, 27.1)
 </td>
-<td headers="Insurance Type stub_1_3 FT_TrumpRx" class="gt_row gt_center">
-22.3 (18.9, 25.9)
+<td headers="Insurance Type stub_1_3 FT_Rational" class="gt_row gt_center">
+22.4 (19.0, 26.0)
 </td>
-<td headers="Insurance Type stub_1_3 Pct_Ben_TrumpRx" class="gt_row gt_center">
-0.0 (–)*
+<td headers="Insurance Type stub_1_3 Pct_Ben_Rational" class="gt_row gt_center">
+22.0 (19.1, 25.3)
 </td>
-<td headers="Insurance Type stub_1_3 Savings_TrumpRx" class="gt_row gt_center">
-–
+<td headers="Insurance Type stub_1_3 Savings_Rational" class="gt_row gt_center">
+$569 (477, 679)
 </td>
 </tr>
 <tr>
@@ -1728,17 +1721,17 @@ Private/Commercial
 <td headers="Insurance Type stub_1_4 Baseline (95% CI)" class="gt_row gt_center">
 13.7 (11.6, 15.9)
 </td>
-<td headers="Insurance Type stub_1_4 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-14.9 (12.8, 17.3)
+<td headers="Insurance Type stub_1_4 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+15.2 (13.0, 17.5)
 </td>
-<td headers="Insurance Type stub_1_4 FT_TrumpRx" class="gt_row gt_center">
-14.9 (12.8, 17.3)
+<td headers="Insurance Type stub_1_4 FT_Rational" class="gt_row gt_center">
+14.8 (12.7, 17.1)
 </td>
-<td headers="Insurance Type stub_1_4 Pct_Ben_TrumpRx" class="gt_row gt_center">
-0.0 (–)*
+<td headers="Insurance Type stub_1_4 Pct_Ben_Rational" class="gt_row gt_center">
+6.9 (5.5, 8.7)
 </td>
-<td headers="Insurance Type stub_1_4 Savings_TrumpRx" class="gt_row gt_center">
-–
+<td headers="Insurance Type stub_1_4 Savings_Rational" class="gt_row gt_center">
+$735 (456, 1183)
 </td>
 </tr>
 <tr>
@@ -1746,22 +1739,22 @@ Private/Commercial
 Uninsured
 </th>
 <td headers="Insurance Type stub_1_5 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-13.9 (9.3, 19.7)
+13.7 (9.2, 19.4)
 </td>
 <td headers="Insurance Type stub_1_5 Baseline (95% CI)" class="gt_row gt_center">
 13.9 (9.3, 19.7)
 </td>
-<td headers="Insurance Type stub_1_5 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-49.3 (41.6, 57.0)
+<td headers="Insurance Type stub_1_5 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+49.7 (42.0, 57.5)
 </td>
-<td headers="Insurance Type stub_1_5 FT_TrumpRx" class="gt_row gt_center">
+<td headers="Insurance Type stub_1_5 FT_Rational" class="gt_row gt_center">
 39.1 (31.7, 46.8)
 </td>
-<td headers="Insurance Type stub_1_5 Pct_Ben_TrumpRx" class="gt_row gt_center">
-46.3 (38.7, 54.0)
+<td headers="Insurance Type stub_1_5 Pct_Ben_Rational" class="gt_row gt_center">
+49.9 (41.7, 58.2)
 </td>
-<td headers="Insurance Type stub_1_5 Savings_TrumpRx" class="gt_row gt_center">
-$6918 (6699, 7144)
+<td headers="Insurance Type stub_1_5 Savings_Rational" class="gt_row gt_center">
+$6835 (6580, 7099)
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -1779,17 +1772,17 @@ Age Group
 <td headers="Age Group stub_1_6 Baseline (95% CI)" class="gt_row gt_center">
 17.3 (15.3, 19.3)
 </td>
-<td headers="Age Group stub_1_6 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-21.7 (19.5, 24.0)
+<td headers="Age Group stub_1_6 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+21.8 (19.6, 24.1)
 </td>
-<td headers="Age Group stub_1_6 FT_TrumpRx" class="gt_row gt_center">
-20.9 (18.7, 23.2)
+<td headers="Age Group stub_1_6 FT_Rational" class="gt_row gt_center">
+20.7 (18.6, 23.0)
 </td>
-<td headers="Age Group stub_1_6 Pct_Ben_TrumpRx" class="gt_row gt_center">
-3.9 (2.9, 5.0)
+<td headers="Age Group stub_1_6 Pct_Ben_Rational" class="gt_row gt_center">
+9.3 (7.8, 11.0)
 </td>
-<td headers="Age Group stub_1_6 Savings_TrumpRx" class="gt_row gt_center">
-$6876 (6663, 7096)
+<td headers="Age Group stub_1_6 Savings_Rational" class="gt_row gt_center">
+$3485 (2984, 4069)
 </td>
 </tr>
 <tr>
@@ -1797,22 +1790,22 @@ $6876 (6663, 7096)
 65-74 Years
 </th>
 <td headers="Age Group stub_1_7 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-16.2 (13.2, 19.7)
+16.1 (13.1, 19.6)
 </td>
 <td headers="Age Group stub_1_7 Baseline (95% CI)" class="gt_row gt_center">
 16.2 (13.2, 19.7)
 </td>
-<td headers="Age Group stub_1_7 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-19.7 (16.3, 23.4)
+<td headers="Age Group stub_1_7 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+20.7 (17.2, 24.6)
 </td>
-<td headers="Age Group stub_1_7 FT_TrumpRx" class="gt_row gt_center">
-19.7 (16.3, 23.4)
+<td headers="Age Group stub_1_7 FT_Rational" class="gt_row gt_center">
+20.0 (16.6, 23.8)
 </td>
-<td headers="Age Group stub_1_7 Pct_Ben_TrumpRx" class="gt_row gt_center">
-0.0 (–)*
+<td headers="Age Group stub_1_7 Pct_Ben_Rational" class="gt_row gt_center">
+18.2 (14.9, 21.8)
 </td>
-<td headers="Age Group stub_1_7 Savings_TrumpRx" class="gt_row gt_center">
-–
+<td headers="Age Group stub_1_7 Savings_Rational" class="gt_row gt_center">
+$603 (504, 721)
 </td>
 </tr>
 <tr>
@@ -1825,17 +1818,17 @@ $6876 (6663, 7096)
 <td headers="Age Group stub_1_8 Baseline (95% CI)" class="gt_row gt_center">
 24.3 (19.5, 29.7)
 </td>
-<td headers="Age Group stub_1_8 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-31.6 (26.0, 37.7)
+<td headers="Age Group stub_1_8 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+32.7 (27.1, 38.6)
 </td>
-<td headers="Age Group stub_1_8 FT_TrumpRx" class="gt_row gt_center">
-31.6 (26.0, 37.7)
+<td headers="Age Group stub_1_8 FT_Rational" class="gt_row gt_center">
+31.7 (26.1, 37.8)
 </td>
-<td headers="Age Group stub_1_8 Pct_Ben_TrumpRx" class="gt_row gt_center">
-0.0 (–)*
+<td headers="Age Group stub_1_8 Pct_Ben_Rational" class="gt_row gt_center">
+21.5 (16.7, 26.9)
 </td>
-<td headers="Age Group stub_1_8 Savings_TrumpRx" class="gt_row gt_center">
-–
+<td headers="Age Group stub_1_8 Savings_Rational" class="gt_row gt_center">
+$495 (334, 734)
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -1848,22 +1841,22 @@ Sex
 Female
 </th>
 <td headers="Sex stub_1_9 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-20.8 (18.9, 22.9)
+20.8 (18.8, 22.8)
 </td>
 <td headers="Sex stub_1_9 Baseline (95% CI)" class="gt_row gt_center">
 20.8 (18.9, 22.9)
 </td>
-<td headers="Sex stub_1_9 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-24.7 (22.5, 27.1)
+<td headers="Sex stub_1_9 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+24.7 (22.5, 27.0)
 </td>
-<td headers="Sex stub_1_9 FT_TrumpRx" class="gt_row gt_center">
-24.2 (22.0, 26.5)
+<td headers="Sex stub_1_9 FT_Rational" class="gt_row gt_center">
+23.9 (21.8, 26.2)
 </td>
-<td headers="Sex stub_1_9 Pct_Ben_TrumpRx" class="gt_row gt_center">
-2.0 (1.3, 2.9)
+<td headers="Sex stub_1_9 Pct_Ben_Rational" class="gt_row gt_center">
+11.2 (9.7, 12.8)
 </td>
-<td headers="Sex stub_1_9 Savings_TrumpRx" class="gt_row gt_center">
-$6786 (6474, 7113)
+<td headers="Sex stub_1_9 Savings_Rational" class="gt_row gt_center">
+$1737 (1377, 2190)
 </td>
 </tr>
 <tr>
@@ -1876,17 +1869,17 @@ Male
 <td headers="Sex stub_1_10 Baseline (95% CI)" class="gt_row gt_center">
 14.0 (11.9, 16.4)
 </td>
-<td headers="Sex stub_1_10 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-19.2 (16.6, 22.1)
+<td headers="Sex stub_1_10 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+20.1 (17.4, 23.0)
 </td>
-<td headers="Sex stub_1_10 FT_TrumpRx" class="gt_row gt_center">
-18.5 (16.0, 21.3)
+<td headers="Sex stub_1_10 FT_Rational" class="gt_row gt_center">
+18.8 (16.2, 21.6)
 </td>
-<td headers="Sex stub_1_10 Pct_Ben_TrumpRx" class="gt_row gt_center">
-3.8 (2.5, 5.5)
+<td headers="Sex stub_1_10 Pct_Ben_Rational" class="gt_row gt_center">
+12.9 (11.0, 15.1)
 </td>
-<td headers="Sex stub_1_10 Savings_TrumpRx" class="gt_row gt_center">
-$6930 (6650, 7222)
+<td headers="Sex stub_1_10 Savings_Rational" class="gt_row gt_center">
+$2727 (2194, 3388)
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -1904,17 +1897,17 @@ Low (&lt;125% FPL)
 <td headers="Income Level stub_1_11 Baseline (95% CI)" class="gt_row gt_center">
 71.0 (66.4, 75.3)
 </td>
-<td headers="Income Level stub_1_11 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-80.5 (76.6, 84.1)
+<td headers="Income Level stub_1_11 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+80.8 (77.0, 84.2)
 </td>
-<td headers="Income Level stub_1_11 FT_TrumpRx" class="gt_row gt_center">
-80.5 (76.6, 84.1)
+<td headers="Income Level stub_1_11 FT_Rational" class="gt_row gt_center">
+80.5 (76.7, 83.9)
 </td>
-<td headers="Income Level stub_1_11 Pct_Ben_TrumpRx" class="gt_row gt_center">
-4.1 (2.5, 6.4)
+<td headers="Income Level stub_1_11 Pct_Ben_Rational" class="gt_row gt_center">
+9.9 (7.5, 12.7)
 </td>
-<td headers="Income Level stub_1_11 Savings_TrumpRx" class="gt_row gt_center">
-$6715 (6369, 7080)
+<td headers="Income Level stub_1_11 Savings_Rational" class="gt_row gt_center">
+$3465 (2695, 4454)
 </td>
 </tr>
 <tr>
@@ -1922,22 +1915,22 @@ $6715 (6369, 7080)
 Middle (125%-400% FPL)
 </th>
 <td headers="Income Level stub_1_12 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-15.5 (13.3, 17.9)
+15.4 (13.2, 17.8)
 </td>
 <td headers="Income Level stub_1_12 Baseline (95% CI)" class="gt_row gt_center">
 15.6 (13.4, 18.0)
 </td>
-<td headers="Income Level stub_1_12 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-22.5 (19.9, 25.2)
+<td headers="Income Level stub_1_12 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+23.3 (20.7, 26.1)
 </td>
-<td headers="Income Level stub_1_12 FT_TrumpRx" class="gt_row gt_center">
-21.1 (18.6, 23.8)
+<td headers="Income Level stub_1_12 FT_Rational" class="gt_row gt_center">
+21.2 (18.6, 24.0)
 </td>
-<td headers="Income Level stub_1_12 Pct_Ben_TrumpRx" class="gt_row gt_center">
-3.7 (2.5, 5.2)
+<td headers="Income Level stub_1_12 Pct_Ben_Rational" class="gt_row gt_center">
+13.1 (11.1, 15.3)
 </td>
-<td headers="Income Level stub_1_12 Savings_TrumpRx" class="gt_row gt_center">
-$6968 (6649, 7301)
+<td headers="Income Level stub_1_12 Savings_Rational" class="gt_row gt_center">
+$2556 (2064, 3167)
 </td>
 </tr>
 <tr>
@@ -1950,17 +1943,17 @@ High (&gt;400% FPL)
 <td headers="Income Level stub_1_13 Baseline (95% CI)" class="gt_row gt_center">
 1.2 (0.7, 1.9)
 </td>
-<td headers="Income Level stub_1_13 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-1.5 (0.9, 2.4)
+<td headers="Income Level stub_1_13 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+1.5 (1.0, 2.2)
 </td>
-<td headers="Income Level stub_1_13 FT_TrumpRx" class="gt_row gt_center">
-1.5 (0.9, 2.4)
+<td headers="Income Level stub_1_13 FT_Rational" class="gt_row gt_center">
+1.3 (0.8, 2.0)
 </td>
-<td headers="Income Level stub_1_13 Pct_Ben_TrumpRx" class="gt_row gt_center">
-1.5 (0.8, 2.6)
+<td headers="Income Level stub_1_13 Pct_Ben_Rational" class="gt_row gt_center">
+11.6 (9.5, 14.0)
 </td>
-<td headers="Income Level stub_1_13 Savings_TrumpRx" class="gt_row gt_center">
-$6800 (6318, 7318)
+<td headers="Income Level stub_1_13 Savings_Rational" class="gt_row gt_center">
+$1483 (1069, 2056)
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -1973,22 +1966,22 @@ Race and Ethnicity
 White
 </th>
 <td headers="Race and Ethnicity stub_1_14 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-17.1 (15.1, 19.4)
+17.1 (15.0, 19.3)
 </td>
 <td headers="Race and Ethnicity stub_1_14 Baseline (95% CI)" class="gt_row gt_center">
 17.1 (15.1, 19.4)
 </td>
-<td headers="Race and Ethnicity stub_1_14 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-20.6 (18.2, 23.2)
+<td headers="Race and Ethnicity stub_1_14 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+20.9 (18.5, 23.5)
 </td>
-<td headers="Race and Ethnicity stub_1_14 FT_TrumpRx" class="gt_row gt_center">
-20.1 (17.7, 22.7)
+<td headers="Race and Ethnicity stub_1_14 FT_Rational" class="gt_row gt_center">
+20.0 (17.6, 22.5)
 </td>
-<td headers="Race and Ethnicity stub_1_14 Pct_Ben_TrumpRx" class="gt_row gt_center">
-1.9 (1.2, 2.9)
+<td headers="Race and Ethnicity stub_1_14 Pct_Ben_Rational" class="gt_row gt_center">
+11.9 (10.2, 13.7)
 </td>
-<td headers="Race and Ethnicity stub_1_14 Savings_TrumpRx" class="gt_row gt_center">
-$6946 (6558, 7357)
+<td headers="Race and Ethnicity stub_1_14 Savings_Rational" class="gt_row gt_center">
+$1831 (1438, 2332)
 </td>
 </tr>
 <tr>
@@ -2001,17 +1994,17 @@ Black
 <td headers="Race and Ethnicity stub_1_15 Baseline (95% CI)" class="gt_row gt_center">
 21.4 (17.5, 25.7)
 </td>
-<td headers="Race and Ethnicity stub_1_15 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-26.7 (22.1, 31.8)
+<td headers="Race and Ethnicity stub_1_15 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+27.8 (23.1, 32.9)
 </td>
-<td headers="Race and Ethnicity stub_1_15 FT_TrumpRx" class="gt_row gt_center">
-26.6 (22.0, 31.7)
+<td headers="Race and Ethnicity stub_1_15 FT_Rational" class="gt_row gt_center">
+26.9 (22.3, 31.9)
 </td>
-<td headers="Race and Ethnicity stub_1_15 Pct_Ben_TrumpRx" class="gt_row gt_center">
-2.3 (1.1, 4.3)
+<td headers="Race and Ethnicity stub_1_15 Pct_Ben_Rational" class="gt_row gt_center">
+11.7 (8.5, 15.6)
 </td>
-<td headers="Race and Ethnicity stub_1_15 Savings_TrumpRx" class="gt_row gt_center">
-$6709 (6234, 7221)
+<td headers="Race and Ethnicity stub_1_15 Savings_Rational" class="gt_row gt_center">
+$1861 (1230, 2814)
 </td>
 </tr>
 <tr>
@@ -2024,17 +2017,17 @@ Hispanic or Latino
 <td headers="Race and Ethnicity stub_1_16 Baseline (95% CI)" class="gt_row gt_center">
 16.7 (13.2, 20.8)
 </td>
-<td headers="Race and Ethnicity stub_1_16 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-25.5 (21.6, 29.7)
+<td headers="Race and Ethnicity stub_1_16 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+25.6 (21.6, 29.9)
 </td>
-<td headers="Race and Ethnicity stub_1_16 FT_TrumpRx" class="gt_row gt_center">
-23.8 (19.9, 28.1)
+<td headers="Race and Ethnicity stub_1_16 FT_Rational" class="gt_row gt_center">
+23.9 (19.9, 28.3)
 </td>
-<td headers="Race and Ethnicity stub_1_16 Pct_Ben_TrumpRx" class="gt_row gt_center">
-8.0 (5.7, 11.0)
+<td headers="Race and Ethnicity stub_1_16 Pct_Ben_Rational" class="gt_row gt_center">
+13.8 (10.7, 17.4)
 </td>
-<td headers="Race and Ethnicity stub_1_16 Savings_TrumpRx" class="gt_row gt_center">
-$6896 (6615, 7188)
+<td headers="Race and Ethnicity stub_1_16 Savings_Rational" class="gt_row gt_center">
+$4299 (3627, 5096)
 </td>
 </tr>
 <tr>
@@ -2047,17 +2040,17 @@ Other Race and Ethnicity
 <td headers="Race and Ethnicity stub_1_17 Baseline (95% CI)" class="gt_row gt_center">
 17.0 (10.9, 24.8)
 </td>
-<td headers="Race and Ethnicity stub_1_17 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-20.2 (13.0, 29.1)
+<td headers="Race and Ethnicity stub_1_17 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+19.8 (12.8, 28.6)
 </td>
-<td headers="Race and Ethnicity stub_1_17 FT_TrumpRx" class="gt_row gt_center">
-20.2 (13.0, 29.1)
+<td headers="Race and Ethnicity stub_1_17 FT_Rational" class="gt_row gt_center">
+19.8 (12.8, 28.6)
 </td>
-<td headers="Race and Ethnicity stub_1_17 Pct_Ben_TrumpRx" class="gt_row gt_center">
-1.4 (0.0, 7.8)*
+<td headers="Race and Ethnicity stub_1_17 Pct_Ben_Rational" class="gt_row gt_center">
+8.6 (4.0, 15.7)*
 </td>
-<td headers="Race and Ethnicity stub_1_17 Savings_TrumpRx" class="gt_row gt_center">
-$6137 (6137, 6137)*
+<td headers="Race and Ethnicity stub_1_17 Savings_Rational" class="gt_row gt_center">
+$1143 (257, 5079)*
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -2075,17 +2068,17 @@ Northeast
 <td headers="Census Region stub_1_18 Baseline (95% CI)" class="gt_row gt_center">
 17.5 (14.4, 21.0)
 </td>
-<td headers="Census Region stub_1_18 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-20.4 (16.4, 24.9)
+<td headers="Census Region stub_1_18 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+21.2 (17.2, 25.6)
 </td>
-<td headers="Census Region stub_1_18 FT_TrumpRx" class="gt_row gt_center">
-20.0 (16.0, 24.5)
+<td headers="Census Region stub_1_18 FT_Rational" class="gt_row gt_center">
+19.9 (15.9, 24.4)
 </td>
-<td headers="Census Region stub_1_18 Pct_Ben_TrumpRx" class="gt_row gt_center">
-0.7 (0.2, 1.9)
+<td headers="Census Region stub_1_18 Pct_Ben_Rational" class="gt_row gt_center">
+10.2 (6.7, 14.7)
 </td>
-<td headers="Census Region stub_1_18 Savings_TrumpRx" class="gt_row gt_center">
-$6137 (6137, 6137)*
+<td headers="Census Region stub_1_18 Savings_Rational" class="gt_row gt_center">
+$1183 (643, 2177)
 </td>
 </tr>
 <tr>
@@ -2093,22 +2086,22 @@ $6137 (6137, 6137)*
 Midwest
 </th>
 <td headers="Census Region stub_1_19 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-17.2 (13.8, 21.1)
+17.1 (13.8, 21.0)
 </td>
 <td headers="Census Region stub_1_19 Baseline (95% CI)" class="gt_row gt_center">
 17.4 (14.0, 21.2)
 </td>
-<td headers="Census Region stub_1_19 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-21.2 (16.8, 26.1)
+<td headers="Census Region stub_1_19 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+21.3 (16.9, 26.2)
 </td>
-<td headers="Census Region stub_1_19 FT_TrumpRx" class="gt_row gt_center">
-21.2 (16.8, 26.1)
+<td headers="Census Region stub_1_19 FT_Rational" class="gt_row gt_center">
+21.0 (16.6, 25.8)
 </td>
-<td headers="Census Region stub_1_19 Pct_Ben_TrumpRx" class="gt_row gt_center">
-1.4 (0.5, 3.0)
+<td headers="Census Region stub_1_19 Pct_Ben_Rational" class="gt_row gt_center">
+9.6 (7.5, 12.0)
 </td>
-<td headers="Census Region stub_1_19 Savings_TrumpRx" class="gt_row gt_center">
-$6439 (6031, 6874)
+<td headers="Census Region stub_1_19 Savings_Rational" class="gt_row gt_center">
+$1399 (887, 2207)
 </td>
 </tr>
 <tr>
@@ -2121,17 +2114,17 @@ South
 <td headers="Census Region stub_1_20 Baseline (95% CI)" class="gt_row gt_center">
 19.3 (16.9, 21.9)
 </td>
-<td headers="Census Region stub_1_20 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-26.0 (23.3, 28.9)
+<td headers="Census Region stub_1_20 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+26.4 (23.7, 29.3)
 </td>
-<td headers="Census Region stub_1_20 FT_TrumpRx" class="gt_row gt_center">
-24.8 (22.1, 27.7)
+<td headers="Census Region stub_1_20 FT_Rational" class="gt_row gt_center">
+24.8 (22.1, 27.6)
 </td>
-<td headers="Census Region stub_1_20 Pct_Ben_TrumpRx" class="gt_row gt_center">
-5.0 (3.5, 6.8)
+<td headers="Census Region stub_1_20 Pct_Ben_Rational" class="gt_row gt_center">
+15.1 (13.1, 17.2)
 </td>
-<td headers="Census Region stub_1_20 Savings_TrumpRx" class="gt_row gt_center">
-$7009 (6756, 7272)
+<td headers="Census Region stub_1_20 Savings_Rational" class="gt_row gt_center">
+$2968 (2480, 3552)
 </td>
 </tr>
 <tr>
@@ -2144,24 +2137,24 @@ West
 <td headers="Census Region stub_1_21 Baseline (95% CI)" class="gt_row gt_center">
 14.7 (11.7, 18.1)
 </td>
-<td headers="Census Region stub_1_21 Universal GLP-1RA (95% CI)" class="gt_row gt_center">
-16.6 (13.3, 20.4)
+<td headers="Census Region stub_1_21 Universal GLP-1RA + Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+17.0 (13.5, 20.9)
 </td>
-<td headers="Census Region stub_1_21 FT_TrumpRx" class="gt_row gt_center">
-16.4 (13.1, 20.2)
+<td headers="Census Region stub_1_21 FT_Rational" class="gt_row gt_center">
+16.6 (13.2, 20.5)
 </td>
-<td headers="Census Region stub_1_21 Pct_Ben_TrumpRx" class="gt_row gt_center">
-1.7 (0.9, 2.8)
+<td headers="Census Region stub_1_21 Pct_Ben_Rational" class="gt_row gt_center">
+9.7 (7.5, 12.4)
 </td>
-<td headers="Census Region stub_1_21 Savings_TrumpRx" class="gt_row gt_center">
-$6736 (6125, 7408)
+<td headers="Census Region stub_1_21 Savings_Rational" class="gt_row gt_center">
+$1646 (1207, 2244)
 </td>
 </tr>
 </tbody>
 <tfoot>
 <tr class="gt_sourcenotes">
 <td class="gt_sourcenote" colspan="7">
-<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBCTUkgPj0zMC4gTUVQUyAyMDIyIGNyb3NzLXNlY3Rpb25hbCBlc3RpbWF0ZXMuIEZpbmFuY2lhbCB0b3hpY2l0eSBpcyBkZWZpbmVkIGFzIGFubnVhbCBvdXQtb2YtcG9ja2V0IGhlYWx0aCBjYXJlIGV4cGVuZGl0dXJlcyAoaW5jbHVkaW5nIHByZW1pdW1zKSBleGNlZWRpbmcgMjAlIG9mIHBvc3Qtc3Vic2lzdGVuY2UgaW5jb21lLiAnVW5pdmVyc2FsIEdMUC0xUkEnIGFzc3VtZXMgMTAwJSBhZGhlcmVuY2UgdGhyb3VnaCBpbnN1cmFuY2U7IFRydW1wUnggYXBwbGllcyBhIHJhdGlvbmFsIGJ1eWVyIG1pbmltdW0gb2YgaW5zdXJlZCB2cyBjYXNoIHByaWNlcyB3aXRoIGEgJDYsMDM3IGFubnVhbCBjYXAuIENvc3RzIGFyZSByZXBvcnRlZCBpbiBKYW4gMjAyNiBVUyBkb2xsYXJzLiBDSXMgZm9yIHByb3BvcnRpb25zIGFyZSBLb3JuLUdyYXViYXJkIGJldGEgaW50ZXJ2YWxzIGJhc2VkIG9uIGJvb3RzdHJhcCBzdGFuZGFyZCBlcnJvcnMgKDIwMDAgcmVwbGljYXRlcykuIENvc3QgQ0lzIHVzZSBib290c3RyYXAgc3RhbmRhcmQgZXJyb3JzIHdpdGggbG9nLXRyYW5zZm9ybWF0aW9uLiBFc3RpbWF0ZXMgbWFya2VkIHdpdGggYW4gYXN0ZXJpc2sgKCopIGFyZSBjb25zaWRlcmVkIHN0YXRpc3RpY2FsbHkgdW5yZWxpYWJsZSBwZXIgdGhlIDIwMTcgTmF0aW9uYWwgQ2VudGVyIGZvciBIZWFsdGggU3RhdGlzdGljcyBzdGFuZGFyZHMgKGR1ZSB0byBoaWdoIHJlbGF0aXZlIHN0YW5kYXJkIGVycm9yLCBpbnN1ZmZpY2llbnQgZWZmZWN0aXZlIHNhbXBsZSBzaXplLCBvciBsb3cgZGVncmVlcyBvZiBmcmVlZG9tKS4gVGhlICdFeGNsLiBEcnVnIENvc3QnIGNvbHVtbiByZXByZXNlbnRzIHRoZSBiYXNlbGluZSBwcmV2YWxlbmNlIG9mIGZpbmFuY2lhbCB0b3hpY2l0eSBhZnRlciBtYXRoZW1hdGljYWxseSBzZXR0aW5nIHRoZSBvYnNlcnZlZCBvdXQtb2YtcG9ja2V0IGNvc3RzIGZvciB0aGUgdGFyZ2V0ZWQgdGhlcmFwaWVzIHRvIHplcm8gdG8gaWxsdXN0cmF0ZSB0aGUgYmFja2dyb3VuZCBlY29ub21pYyBidXJkZW4u"><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with BMI &gt;=30. MEPS 2022 cross-sectional estimates. Financial toxicity is defined as annual out-of-pocket health care expenditures (including premiums) exceeding 20% of post-subsistence income. ‘Universal GLP-1RA’ assumes 100% adherence through insurance; TrumpRx applies a rational buyer minimum of insured vs cash prices with a $6,037 annual cap. Costs are reported in Jan 2026 US dollars. CIs for proportions are Korn-Graubard beta intervals based on bootstrap standard errors (2000 replicates). Cost CIs use bootstrap standard errors with log-transformation. Estimates marked with an asterisk (*) are considered statistically unreliable per the 2017 National Center for Health Statistics standards (due to high relative standard error, insufficient effective sample size, or low degrees of freedom). The ‘Excl. Drug Cost’ column represents the baseline prevalence of financial toxicity after mathematically setting the observed out-of-pocket costs for the targeted therapies to zero to illustrate the background economic burden.</span></span>
+<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBPYmVzaXR5LiBNRVBTIDIwMjIgY3Jvc3Mtc2VjdGlvbmFsIGVzdGltYXRlcy4gRmluYW5jaWFsIHRveGljaXR5IGlzIGRlZmluZWQgYXMgYW5udWFsIG91dC1vZi1wb2NrZXQgaGVhbHRoIGNhcmUgZXhwZW5kaXR1cmVzIChpbmNsdWRpbmcgcHJlbWl1bXMpIGV4Y2VlZGluZyAyMCUgb2YgcG9zdC1zdWJzaXN0ZW5jZSBpbmNvbWUuICdVbml2ZXJzYWwgR0xQLTFSQSArIFRhcmdldGVkIFNHTFQyaScgYXNzdW1lcyB1bml2ZXJzYWwgR0xQLTFSQSBhZGhlcmVuY2UgcGx1cyB0YXJnZXRlZCBTR0xUMmkgYWRoZXJlbmNlIGFtb25nIGFkdWx0cyB3aXRoIHR5cGUgMiBkaWFiZXRlcywgaGVhcnQgZmFpbHVyZSwgb3IgY2hyb25pYyBraWRuZXkgZGlzZWFzZTsgUmF0aW9uYWwgYnV5ZXIgc3Vic3RpdHV0aW9uIGFwcGxpZXMgdGhlICQ2LDAzNyBhbm51YWwgVHJ1bXBSeCBjYXAgdG8gdGhlIEdMUC0xUkEgY29tcG9uZW50IGZvciBhbGwgY29ob3J0IG1lbWJlcnMgYW5kIHRoZSAkMTIwIGFubnVhbCBDb3N0IFBsdXMgRGFwYWdsaWZsb3ppbiBjYXAgdG8gdGhlIFNHTFQyaSBjb21wb25lbnQgb25seSBhbW9uZyBhZHVsdHMgd2l0aCB0eXBlIDIgZGlhYmV0ZXMsIGhlYXJ0IGZhaWx1cmUsIG9yIGNocm9uaWMga2lkbmV5IGRpc2Vhc2UuIENvc3RzIGFyZSByZXBvcnRlZCBpbiBKYW4gMjAyNiBVUyBkb2xsYXJzLiBDSXMgZm9yIHByb3BvcnRpb25zIGFyZSBLb3JuLUdyYXViYXJkIGJldGEgaW50ZXJ2YWxzIGJhc2VkIG9uIGJvb3RzdHJhcCBzdGFuZGFyZCBlcnJvcnMgKDIwMDAgcmVwbGljYXRlcykuIENvc3QgQ0lzIHVzZSBib290c3RyYXAgc3RhbmRhcmQgZXJyb3JzIHdpdGggbG9nLXRyYW5zZm9ybWF0aW9uLiBFc3RpbWF0ZXMgbWFya2VkIHdpdGggYW4gYXN0ZXJpc2sgKCopIGFyZSBjb25zaWRlcmVkIHN0YXRpc3RpY2FsbHkgdW5yZWxpYWJsZSBwZXIgdGhlIDIwMTcgTmF0aW9uYWwgQ2VudGVyIGZvciBIZWFsdGggU3RhdGlzdGljcyBzdGFuZGFyZHMgKGR1ZSB0byBoaWdoIHJlbGF0aXZlIHN0YW5kYXJkIGVycm9yLCBpbnN1ZmZpY2llbnQgZWZmZWN0aXZlIHNhbXBsZSBzaXplLCBvciBsb3cgZGVncmVlcyBvZiBmcmVlZG9tKS4gVGhlICdFeGNsLiBEcnVnIENvc3QnIGNvbHVtbiByZXByZXNlbnRzIHRoZSBiYXNlbGluZSBwcmV2YWxlbmNlIG9mIGZpbmFuY2lhbCB0b3hpY2l0eSBhZnRlciBtYXRoZW1hdGljYWxseSBzZXR0aW5nIHRoZSBvYnNlcnZlZCBvdXQtb2YtcG9ja2V0IGNvc3RzIGZvciB0aGUgdGFyZ2V0ZWQgdGhlcmFwaWVzIHRvIHplcm8gdG8gaWxsdXN0cmF0ZSB0aGUgYmFja2dyb3VuZCBlY29ub21pYyBidXJkZW4u"><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with Obesity. MEPS 2022 cross-sectional estimates. Financial toxicity is defined as annual out-of-pocket health care expenditures (including premiums) exceeding 20% of post-subsistence income. ‘Universal GLP-1RA + Targeted SGLT2i’ assumes universal GLP-1RA adherence plus targeted SGLT2i adherence among adults with type 2 diabetes, heart failure, or chronic kidney disease; Rational buyer substitution applies the $6,037 annual TrumpRx cap to the GLP-1RA component for all cohort members and the $120 annual Cost Plus Dapagliflozin cap to the SGLT2i component only among adults with type 2 diabetes, heart failure, or chronic kidney disease. Costs are reported in Jan 2026 US dollars. CIs for proportions are Korn-Graubard beta intervals based on bootstrap standard errors (2000 replicates). Cost CIs use bootstrap standard errors with log-transformation. Estimates marked with an asterisk (*) are considered statistically unreliable per the 2017 National Center for Health Statistics standards (due to high relative standard error, insufficient effective sample size, or low degrees of freedom). The ‘Excl. Drug Cost’ column represents the baseline prevalence of financial toxicity after mathematically setting the observed out-of-pocket costs for the targeted therapies to zero to illustrate the background economic burden.</span></span>
 </td>
 </tr>
 </tfoot>
@@ -2173,7 +2166,7 @@ $6736 (6125, 7408)
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Table 4. Projected Incidence of Financial Toxicity Among Medicare Beneficiaries Under Universal GLP-1 Receptor Agonist Adherence and Inflation Reduction Act Scenarios.</td>
+<td>Table 4. Projected Incidence of Financial Toxicity Among Medicare Beneficiaries Under Universal GLP-1RA Plus Targeted SGLT2i Adherence and Inflation Reduction Act Scenarios.</td>
 </tr>
 </tbody>
 </table>
@@ -2243,8 +2236,8 @@ Excl. Drug Cost (95% CI)
 <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Baseline-(95%-CI)">
 Baseline Utilization, % (95% CI)
 </th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Universal-GLP-1-Receptor-Agonist-(95%-CI)">
-Universal GLP-1RA, % (95% CI)
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Universal-GLP-1RA-Plus-Targeted-SGLT2i-(95%-CI)">
+Universal GLP-1RA + Targeted SGLT2i, % (95% CI)
 </th>
 <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Post-IRA-(95%-CI)">
 Post-IRA Cap, % (95% CI)
@@ -2268,22 +2261,22 @@ Overall Population
 All Medicare Beneficiaries
 </th>
 <td headers="Overall Population stub_1_1 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-16.9 (14.1, 20.1)
+16.8 (14.0, 20.0)
 </td>
 <td headers="Overall Population stub_1_1 Baseline (95% CI)" class="gt_row gt_center">
 16.9 (14.1, 20.1)
 </td>
-<td headers="Overall Population stub_1_1 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-22.3 (18.9, 25.9)
+<td headers="Overall Population stub_1_1 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+23.3 (19.8, 27.1)
 </td>
 <td headers="Overall Population stub_1_1 Post-IRA (95% CI)" class="gt_row gt_center">
-21.0 (17.9, 24.4)
+21.3 (18.1, 24.8)
 </td>
 <td headers="Overall Population stub_1_1 ARR" class="gt_row gt_right">
-1.3
+2.0
 </td>
 <td headers="Overall Population stub_1_1 RRR" class="gt_row gt_right">
-5.8
+8.6
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -2296,22 +2289,22 @@ Age Group
 65-74 Years
 </th>
 <td headers="Age Group stub_1_2 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-14.2 (11.0, 18.1)
+14.1 (10.9, 17.9)
 </td>
 <td headers="Age Group stub_1_2 Baseline (95% CI)" class="gt_row gt_center">
 14.2 (11.0, 18.1)
 </td>
-<td headers="Age Group stub_1_2 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-18.2 (14.5, 22.3)
+<td headers="Age Group stub_1_2 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+19.1 (15.3, 23.4)
 </td>
 <td headers="Age Group stub_1_2 Post-IRA (95% CI)" class="gt_row gt_center">
-17.2 (13.7, 21.2)
+17.5 (14.0, 21.6)
 </td>
 <td headers="Age Group stub_1_2 ARR" class="gt_row gt_right">
-1.0
+1.6
 </td>
 <td headers="Age Group stub_1_2 RRR" class="gt_row gt_right">
-5.4
+8.2
 </td>
 </tr>
 <tr>
@@ -2324,17 +2317,17 @@ Age Group
 <td headers="Age Group stub_1_3 Baseline (95% CI)" class="gt_row gt_center">
 22.4 (17.4, 28.0)
 </td>
-<td headers="Age Group stub_1_3 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-30.7 (24.8, 37.2)
+<td headers="Age Group stub_1_3 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+31.8 (25.9, 38.3)
 </td>
 <td headers="Age Group stub_1_3 Post-IRA (95% CI)" class="gt_row gt_center">
-28.8 (23.2, 35.0)
+29.0 (23.3, 35.2)
 </td>
 <td headers="Age Group stub_1_3 ARR" class="gt_row gt_right">
-1.9
+2.9
 </td>
 <td headers="Age Group stub_1_3 RRR" class="gt_row gt_right">
-6.3
+9.0
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -2347,22 +2340,22 @@ Sex
 Female
 </th>
 <td headers="Sex stub_1_4 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-20.2 (16.7, 24.0)
+20.0 (16.6, 23.8)
 </td>
 <td headers="Sex stub_1_4 Baseline (95% CI)" class="gt_row gt_center">
 20.2 (16.7, 24.0)
 </td>
-<td headers="Sex stub_1_4 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-25.7 (21.8, 30.0)
+<td headers="Sex stub_1_4 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+26.2 (22.1, 30.6)
 </td>
 <td headers="Sex stub_1_4 Post-IRA (95% CI)" class="gt_row gt_center">
-25.2 (21.3, 29.4)
+25.4 (21.5, 29.7)
 </td>
 <td headers="Sex stub_1_4 ARR" class="gt_row gt_right">
-0.6
+0.8
 </td>
 <td headers="Sex stub_1_4 RRR" class="gt_row gt_right">
-2.1
+2.9
 </td>
 </tr>
 <tr>
@@ -2375,17 +2368,17 @@ Male
 <td headers="Sex stub_1_5 Baseline (95% CI)" class="gt_row gt_center">
 13.4 (9.5, 18.0)
 </td>
-<td headers="Sex stub_1_5 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-18.5 (13.9, 23.8)
+<td headers="Sex stub_1_5 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+20.1 (15.4, 25.5)
 </td>
 <td headers="Sex stub_1_5 Post-IRA (95% CI)" class="gt_row gt_center">
-16.4 (12.3, 21.3)
+16.8 (12.7, 21.6)
 </td>
 <td headers="Sex stub_1_5 ARR" class="gt_row gt_right">
-2.1
+3.3
 </td>
 <td headers="Sex stub_1_5 RRR" class="gt_row gt_right">
-11.3
+16.6
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -2403,11 +2396,11 @@ Low (&lt;125% FPL)
 <td headers="Income Level stub_1_6 Baseline (95% CI)" class="gt_row gt_center">
 89.1 (82.4, 94.0)
 </td>
-<td headers="Income Level stub_1_6 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-97.4 (91.4, 99.6)
+<td headers="Income Level stub_1_6 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+98.3 (95.1, 99.7)
 </td>
 <td headers="Income Level stub_1_6 Post-IRA (95% CI)" class="gt_row gt_center">
-97.4 (91.4, 99.6)
+98.3 (95.1, 99.7)
 </td>
 <td headers="Income Level stub_1_6 ARR" class="gt_row gt_right">
 0.0
@@ -2421,22 +2414,22 @@ Low (&lt;125% FPL)
 Middle (125%-400% FPL)
 </th>
 <td headers="Income Level stub_1_7 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-17.3 (13.1, 22.1)
+17.1 (13.0, 21.9)
 </td>
 <td headers="Income Level stub_1_7 Baseline (95% CI)" class="gt_row gt_center">
 17.3 (13.1, 22.1)
 </td>
-<td headers="Income Level stub_1_7 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-27.0 (21.8, 32.8)
+<td headers="Income Level stub_1_7 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+28.7 (23.3, 34.5)
 </td>
 <td headers="Income Level stub_1_7 Post-IRA (95% CI)" class="gt_row gt_center">
-24.3 (19.4, 29.7)
+24.7 (19.8, 30.2)
 </td>
 <td headers="Income Level stub_1_7 ARR" class="gt_row gt_right">
-2.7
+3.9
 </td>
 <td headers="Income Level stub_1_7 RRR" class="gt_row gt_right">
-10.2
+13.7
 </td>
 </tr>
 <tr>
@@ -2449,17 +2442,17 @@ High (&gt;400% FPL)
 <td headers="Income Level stub_1_8 Baseline (95% CI)" class="gt_row gt_center">
 2.0 (0.9, 4.0)
 </td>
-<td headers="Income Level stub_1_8 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-2.2 (1.0, 4.2)
+<td headers="Income Level stub_1_8 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+2.5 (1.2, 4.6)
 </td>
 <td headers="Income Level stub_1_8 Post-IRA (95% CI)" class="gt_row gt_center">
 2.2 (1.0, 4.2)
 </td>
 <td headers="Income Level stub_1_8 ARR" class="gt_row gt_right">
-0.0
+0.3
 </td>
 <td headers="Income Level stub_1_8 RRR" class="gt_row gt_right">
-0.0
+13.4
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -2472,22 +2465,22 @@ Race and Ethnicity
 White
 </th>
 <td headers="Race and Ethnicity stub_1_9 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-16.4 (13.3, 19.8)
+16.3 (13.2, 19.7)
 </td>
 <td headers="Race and Ethnicity stub_1_9 Baseline (95% CI)" class="gt_row gt_center">
 16.4 (13.3, 19.8)
 </td>
-<td headers="Race and Ethnicity stub_1_9 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-21.4 (17.8, 25.5)
+<td headers="Race and Ethnicity stub_1_9 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+22.1 (18.2, 26.3)
 </td>
 <td headers="Race and Ethnicity stub_1_9 Post-IRA (95% CI)" class="gt_row gt_center">
-20.2 (16.8, 24.1)
+20.5 (16.9, 24.4)
 </td>
 <td headers="Race and Ethnicity stub_1_9 ARR" class="gt_row gt_right">
-1.2
+1.6
 </td>
 <td headers="Race and Ethnicity stub_1_9 RRR" class="gt_row gt_right">
-5.6
+7.2
 </td>
 </tr>
 <tr>
@@ -2500,17 +2493,17 @@ Black
 <td headers="Race and Ethnicity stub_1_10 Baseline (95% CI)" class="gt_row gt_center">
 21.4 (12.5, 32.8)
 </td>
-<td headers="Race and Ethnicity stub_1_10 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-28.7 (19.1, 40.0)
+<td headers="Race and Ethnicity stub_1_10 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+31.4 (21.4, 42.8)
 </td>
 <td headers="Race and Ethnicity stub_1_10 Post-IRA (95% CI)" class="gt_row gt_center">
-25.9 (17.4, 36.0)
+26.7 (18.1, 36.7)
 </td>
 <td headers="Race and Ethnicity stub_1_10 ARR" class="gt_row gt_right">
-2.8
+4.7
 </td>
 <td headers="Race and Ethnicity stub_1_10 RRR" class="gt_row gt_right">
-9.8
+15.0
 </td>
 </tr>
 <tr>
@@ -2523,17 +2516,17 @@ Hispanic or Latino
 <td headers="Race and Ethnicity stub_1_11 Baseline (95% CI)" class="gt_row gt_center">
 19.6 (8.7, 35.2)*
 </td>
-<td headers="Race and Ethnicity stub_1_11 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-28.1 (14.9, 44.7)
+<td headers="Race and Ethnicity stub_1_11 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+31.7 (17.3, 49.3)*
 </td>
 <td headers="Race and Ethnicity stub_1_11 Post-IRA (95% CI)" class="gt_row gt_center">
 28.1 (14.9, 44.7)
 </td>
 <td headers="Race and Ethnicity stub_1_11 ARR" class="gt_row gt_right">
-0.0
+3.7
 </td>
 <td headers="Race and Ethnicity stub_1_11 RRR" class="gt_row gt_right">
-0.0
+11.6
 </td>
 </tr>
 <tr>
@@ -2546,7 +2539,7 @@ Other Race and Ethnicity
 <td headers="Race and Ethnicity stub_1_12 Baseline (95% CI)" class="gt_row gt_center">
 9.3 (1.4, 28.0)*
 </td>
-<td headers="Race and Ethnicity stub_1_12 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
+<td headers="Race and Ethnicity stub_1_12 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
 9.3 (1.4, 28.0)*
 </td>
 <td headers="Race and Ethnicity stub_1_12 Post-IRA (95% CI)" class="gt_row gt_center">
@@ -2574,17 +2567,17 @@ Northeast
 <td headers="Census Region stub_1_13 Baseline (95% CI)" class="gt_row gt_center">
 18.8 (12.8, 26.1)
 </td>
-<td headers="Census Region stub_1_13 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-24.3 (17.6, 32.1)
+<td headers="Census Region stub_1_13 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+26.0 (18.8, 34.2)
 </td>
 <td headers="Census Region stub_1_13 Post-IRA (95% CI)" class="gt_row gt_center">
-20.3 (14.7, 26.9)
+20.8 (14.8, 28.0)
 </td>
 <td headers="Census Region stub_1_13 ARR" class="gt_row gt_right">
-4.0
+5.1
 </td>
 <td headers="Census Region stub_1_13 RRR" class="gt_row gt_right">
-16.4
+19.7
 </td>
 </tr>
 <tr>
@@ -2592,22 +2585,22 @@ Northeast
 Midwest
 </th>
 <td headers="Census Region stub_1_14 Excl. Drug Cost (95% CI)" class="gt_row gt_center">
-17.9 (12.7, 24.1)
+17.6 (12.5, 23.8)
 </td>
 <td headers="Census Region stub_1_14 Baseline (95% CI)" class="gt_row gt_center">
 17.9 (12.7, 24.1)
 </td>
-<td headers="Census Region stub_1_14 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-21.4 (15.4, 28.6)
+<td headers="Census Region stub_1_14 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+21.9 (15.7, 29.3)
 </td>
 <td headers="Census Region stub_1_14 Post-IRA (95% CI)" class="gt_row gt_center">
-20.8 (14.9, 27.7)
+21.0 (15.0, 28.1)
 </td>
 <td headers="Census Region stub_1_14 ARR" class="gt_row gt_right">
-0.6
+0.9
 </td>
 <td headers="Census Region stub_1_14 RRR" class="gt_row gt_right">
-3.0
+4.1
 </td>
 </tr>
 <tr>
@@ -2620,17 +2613,17 @@ South
 <td headers="Census Region stub_1_15 Baseline (95% CI)" class="gt_row gt_center">
 16.5 (11.5, 22.7)
 </td>
-<td headers="Census Region stub_1_15 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-25.0 (18.6, 32.3)
+<td headers="Census Region stub_1_15 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+25.8 (19.1, 33.4)
 </td>
 <td headers="Census Region stub_1_15 Post-IRA (95% CI)" class="gt_row gt_center">
-23.9 (17.8, 30.9)
+24.1 (18.1, 31.1)
 </td>
 <td headers="Census Region stub_1_15 ARR" class="gt_row gt_right">
-1.0
+1.6
 </td>
 <td headers="Census Region stub_1_15 RRR" class="gt_row gt_right">
-4.2
+6.4
 </td>
 </tr>
 <tr>
@@ -2643,24 +2636,24 @@ West
 <td headers="Census Region stub_1_16 Baseline (95% CI)" class="gt_row gt_center">
 14.1 (8.5, 21.6)
 </td>
-<td headers="Census Region stub_1_16 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_center">
-16.2 (10.6, 23.3)
+<td headers="Census Region stub_1_16 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_center">
+17.7 (11.9, 24.9)
 </td>
 <td headers="Census Region stub_1_16 Post-IRA (95% CI)" class="gt_row gt_center">
-16.2 (10.6, 23.3)
+16.5 (10.6, 24.0)
 </td>
 <td headers="Census Region stub_1_16 ARR" class="gt_row gt_right">
-0.0
+1.2
 </td>
 <td headers="Census Region stub_1_16 RRR" class="gt_row gt_right">
-0.0
+6.8
 </td>
 </tr>
 </tbody>
 <tfoot>
 <tr class="gt_sourcenotes">
 <td class="gt_sourcenote" colspan="7">
-<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBCTUkgPj0zMC4gTUVQUyAyMDIyIGNyb3NzLXNlY3Rpb25hbCBlc3RpbWF0ZXMuIEZpbmFuY2lhbCB0b3hpY2l0eSBpcyBkZWZpbmVkIGFzIGFubnVhbCBvdXQtb2YtcG9ja2V0IGhlYWx0aCBjYXJlIGV4cGVuZGl0dXJlcyAoaW5jbHVkaW5nIHByZW1pdW1zKSBleGNlZWRpbmcgMjAlIG9mIHBvc3Qtc3Vic2lzdGVuY2UgaW5jb21lIChpbmNvbWUgcmVtYWluaW5nIGFmdGVyIGZvb2QsIGNsb3RoaW5nLCB0cmFuc3BvcnRhdGlvbiwgc2hlbHRlciwgYW5kIG90aGVyIG5lY2Vzc2l0aWVzKS4gJ1VuaXZlcnNhbCBHTFAtMSBSZWNlcHRvciBBZ29uaXN0IEFkaGVyZW5jZScgYXNzdW1lcyAxMDAlIGFkaGVyZW5jZSB0byBpbmNyZXRpbiBtaW1ldGljIHRoZXJhcHkuICdJbmZsYXRpb24gUmVkdWN0aW9uIEFjdCBJbXBsZW1lbnRhdGlvbicgYXBwbGllcyBhICQyLDEwMCBhbm51YWwgcGhhcm1hY3kgY2FwIHRvIHRoZSBNZWRpY2FyZSBQYXJ0IEQgcG9ydGlvbi4gQ29zdHMgYXJlIHJlcG9ydGVkIGluIEphbiAyMDI2IFVTIGRvbGxhcnMuIENJcyBjYWxjdWxhdGVkIHVzaW5nIEtvcm4tR3JhdWJhcmQgYmV0YSBpbnRlcnZhbHMgYmFzZWQgb24gYm9vdHN0cmFwIHN0YW5kYXJkIGVycm9ycyAoMjAwMCByZXBsaWNhdGVzKS4gRXN0aW1hdGVzIG1hcmtlZCB3aXRoIGFuIGFzdGVyaXNrICgqKSBhcmUgY29uc2lkZXJlZCBzdGF0aXN0aWNhbGx5IHVucmVsaWFibGUgcGVyIHRoZSAyMDE3IE5hdGlvbmFsIENlbnRlciBmb3IgSGVhbHRoIFN0YXRpc3RpY3Mgc3RhbmRhcmRzIChkdWUgdG8gaGlnaCByZWxhdGl2ZSBzdGFuZGFyZCBlcnJvciwgaW5zdWZmaWNpZW50IGVmZmVjdGl2ZSBzYW1wbGUgc2l6ZSwgb3IgbG93IGRlZ3JlZXMgb2YgZnJlZWRvbSkuIFRoZSAnRXhjbC4gRHJ1ZyBDb3N0JyBjb2x1bW4gcmVwcmVzZW50cyB0aGUgYmFzZWxpbmUgcHJldmFsZW5jZSBvZiBmaW5hbmNpYWwgdG94aWNpdHkgYWZ0ZXIgbWF0aGVtYXRpY2FsbHkgc2V0dGluZyB0aGUgb2JzZXJ2ZWQgb3V0LW9mLXBvY2tldCBjb3N0cyBmb3IgdGhlIHRhcmdldGVkIHRoZXJhcGllcyB0byB6ZXJvIHRvIGlsbHVzdHJhdGUgdGhlIGJhY2tncm91bmQgZWNvbm9taWMgYnVyZGVuLg=="><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with BMI &gt;=30. MEPS 2022 cross-sectional estimates. Financial toxicity is defined as annual out-of-pocket health care expenditures (including premiums) exceeding 20% of post-subsistence income (income remaining after food, clothing, transportation, shelter, and other necessities). ‘Universal GLP-1 Receptor Agonist Adherence’ assumes 100% adherence to incretin mimetic therapy. ‘Inflation Reduction Act Implementation’ applies a $2,100 annual pharmacy cap to the Medicare Part D portion. Costs are reported in Jan 2026 US dollars. CIs calculated using Korn-Graubard beta intervals based on bootstrap standard errors (2000 replicates). Estimates marked with an asterisk (*) are considered statistically unreliable per the 2017 National Center for Health Statistics standards (due to high relative standard error, insufficient effective sample size, or low degrees of freedom). The ‘Excl. Drug Cost’ column represents the baseline prevalence of financial toxicity after mathematically setting the observed out-of-pocket costs for the targeted therapies to zero to illustrate the background economic burden.</span></span>
+<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBPYmVzaXR5LiBNRVBTIDIwMjIgY3Jvc3Mtc2VjdGlvbmFsIGVzdGltYXRlcy4gRmluYW5jaWFsIHRveGljaXR5IGlzIGRlZmluZWQgYXMgYW5udWFsIG91dC1vZi1wb2NrZXQgaGVhbHRoIGNhcmUgZXhwZW5kaXR1cmVzIChpbmNsdWRpbmcgcHJlbWl1bXMpIGV4Y2VlZGluZyAyMCUgb2YgcG9zdC1zdWJzaXN0ZW5jZSBpbmNvbWUgKGluY29tZSByZW1haW5pbmcgYWZ0ZXIgZm9vZCwgY2xvdGhpbmcsIHRyYW5zcG9ydGF0aW9uLCBzaGVsdGVyLCBhbmQgb3RoZXIgbmVjZXNzaXRpZXMpLiAnVW5pdmVyc2FsIEdMUC0xUkEgKyBUYXJnZXRlZCBTR0xUMmknIGFzc3VtZXMgMTAwJSBhZGhlcmVuY2UgdG8gR0xQLTEgcmVjZXB0b3IgYWdvbmlzdCB0aGVyYXB5IGFtb25nIGFkdWx0cyB3aXRoIG9iZXNpdHkgYW5kIDEwMCUgYWRoZXJlbmNlIHRvIFNHTFQyIGluaGliaXRvciB0aGVyYXB5IG9ubHkgYW1vbmcgY29ob3J0IG1lbWJlcnMgd2l0aCB0eXBlIDIgZGlhYmV0ZXMsIGhlYXJ0IGZhaWx1cmUsIG9yIGNocm9uaWMga2lkbmV5IGRpc2Vhc2UuICdJbmZsYXRpb24gUmVkdWN0aW9uIEFjdCBJbXBsZW1lbnRhdGlvbicgYXBwbGllcyBhICQyLDEwMCBhbm51YWwgcGhhcm1hY3kgY2FwIHRvIHRoZSBNZWRpY2FyZSBQYXJ0IEQgcG9ydGlvbi4gQ29zdHMgYXJlIHJlcG9ydGVkIGluIEphbiAyMDI2IFVTIGRvbGxhcnMuIENJcyBjYWxjdWxhdGVkIHVzaW5nIEtvcm4tR3JhdWJhcmQgYmV0YSBpbnRlcnZhbHMgYmFzZWQgb24gYm9vdHN0cmFwIHN0YW5kYXJkIGVycm9ycyAoMjAwMCByZXBsaWNhdGVzKS4gRXN0aW1hdGVzIG1hcmtlZCB3aXRoIGFuIGFzdGVyaXNrICgqKSBhcmUgY29uc2lkZXJlZCBzdGF0aXN0aWNhbGx5IHVucmVsaWFibGUgcGVyIHRoZSAyMDE3IE5hdGlvbmFsIENlbnRlciBmb3IgSGVhbHRoIFN0YXRpc3RpY3Mgc3RhbmRhcmRzIChkdWUgdG8gaGlnaCByZWxhdGl2ZSBzdGFuZGFyZCBlcnJvciwgaW5zdWZmaWNpZW50IGVmZmVjdGl2ZSBzYW1wbGUgc2l6ZSwgb3IgbG93IGRlZ3JlZXMgb2YgZnJlZWRvbSkuIFRoZSAnRXhjbC4gRHJ1ZyBDb3N0JyBjb2x1bW4gcmVwcmVzZW50cyB0aGUgYmFzZWxpbmUgcHJldmFsZW5jZSBvZiBmaW5hbmNpYWwgdG94aWNpdHkgYWZ0ZXIgbWF0aGVtYXRpY2FsbHkgc2V0dGluZyB0aGUgb2JzZXJ2ZWQgb3V0LW9mLXBvY2tldCBjb3N0cyBmb3IgdGhlIHRhcmdldGVkIHRoZXJhcGllcyB0byB6ZXJvIHRvIGlsbHVzdHJhdGUgdGhlIGJhY2tncm91bmQgZWNvbm9taWMgYnVyZGVuLg=="><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with Obesity. MEPS 2022 cross-sectional estimates. Financial toxicity is defined as annual out-of-pocket health care expenditures (including premiums) exceeding 20% of post-subsistence income (income remaining after food, clothing, transportation, shelter, and other necessities). ‘Universal GLP-1RA + Targeted SGLT2i’ assumes 100% adherence to GLP-1 receptor agonist therapy among adults with obesity and 100% adherence to SGLT2 inhibitor therapy only among cohort members with type 2 diabetes, heart failure, or chronic kidney disease. ‘Inflation Reduction Act Implementation’ applies a $2,100 annual pharmacy cap to the Medicare Part D portion. Costs are reported in Jan 2026 US dollars. CIs calculated using Korn-Graubard beta intervals based on bootstrap standard errors (2000 replicates). Estimates marked with an asterisk (*) are considered statistically unreliable per the 2017 National Center for Health Statistics standards (due to high relative standard error, insufficient effective sample size, or low degrees of freedom). The ‘Excl. Drug Cost’ column represents the baseline prevalence of financial toxicity after mathematically setting the observed out-of-pocket costs for the targeted therapies to zero to illustrate the background economic burden.</span></span>
 </td>
 </tr>
 </tfoot>
@@ -2672,13 +2665,13 @@ West
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Figure 1. Survey-Weighted Financial Toxicity by Universal GLP-1RA Access Scenario Across Insurance Plans.</td>
+<td>Figure 1. Survey-Weighted Financial Toxicity Under Simultaneous Universal GLP-1RA Therapy, Targeted SGLT2i Therapy, and Combined Rational Buyer Substitution Across Insurance Plans.</td>
 </tr>
 </tbody>
 </table>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="obese_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="obese_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
+<p><a href="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
 </figure>
 </div>
 <table class="caption-top table table-sm table-striped small">
@@ -2687,13 +2680,13 @@ West
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Figure 2. Prevalence of Financial Toxicity and Composition of Out-of-Pocket Costs Among Medicare Beneficiaries Under Universal GLP-1RA and IRA Policy Scenarios.</td>
+<td>Figure 5. Survey-Weighted Mean Annual Out-of-Pocket Costs Under Simultaneous Universal GLP-1RA Therapy, Targeted SGLT2i Therapy, and Combined Rational Buyer Substitution Across Insurance Plans.</td>
 </tr>
 </tbody>
 </table>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="obese_files/figure-html/unnamed-chunk-1-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="obese_files/figure-html/unnamed-chunk-1-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
+<p><a href="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
 </figure>
 </div>
 <table class="caption-top table table-sm table-striped small">
@@ -2702,13 +2695,13 @@ West
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Figure 3. Changes in Financial Toxicity Prevalence Among Medicare Beneficiaries From Universal GLP-1RA to Inflation Reduction Act Scenarios by Demographic Subgroup.</td>
+<td>Figure 2. Prevalence of Financial Toxicity and Composition of Out-of-Pocket Costs Among Medicare Beneficiaries Under Simultaneous Universal GLP-1RA Therapy, Targeted SGLT2i Therapy, and IRA Policy Scenarios.</td>
 </tr>
 </tbody>
 </table>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="obese_files/figure-html/unnamed-chunk-1-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="obese_files/figure-html/unnamed-chunk-1-3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
+<p><a href="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
 </figure>
 </div>
 <table class="caption-top table table-sm table-striped small">
@@ -2717,13 +2710,13 @@ West
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Figure 4. Distribution of Insurance Coverage Types Across Racial and Economic Subgroups.</td>
+<td>Figure 3. Changes in Financial Toxicity Prevalence Among Medicare Beneficiaries From Simultaneous Universal GLP-1RA Therapy and Targeted SGLT2i Therapy to Inflation Reduction Act Scenarios by Demographic Subgroup.</td>
 </tr>
 </tbody>
 </table>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="obese_files/figure-html/unnamed-chunk-1-4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="obese_files/figure-html/unnamed-chunk-1-4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
+<p><a href="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
 </figure>
 </div>
 <table class="caption-top table table-sm table-striped small">
@@ -2732,7 +2725,22 @@ West
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Supplementary Table 1. Comparative Survey-Weighted Annualized GLP-1RA Out-of-Pocket Cost Distributions by Insurance Type.</td>
+<td>Figure 4. Distribution of Insurance Coverage Types and IRA Eligibility Under Simultaneous Universal GLP-1RA Therapy and Targeted SGLT2i Therapy Across Demographic Subgroups.</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
+</figure>
+</div>
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Supplementary Table 1. Comparative Survey-Weighted Annualized Drug-Specific Out-of-Pocket Cost Distributions Under Simultaneous Universal GLP-1RA Therapy and Targeted SGLT2i Therapy.</td>
 </tr>
 </tbody>
 </table>
@@ -2793,17 +2801,22 @@ West
 #upwrxratxg div.Reactable &gt; div.rt-table &gt; div.rt-thead &gt; div.rt-tr.rt-tr-group-header &gt; div.rt-th-group:after { height: 0px !important; } </style>
 </p><table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
+<tr class="gt_heading">
+<td colspan="4" class="gt_heading gt_title gt_font_normal gt_bottom_border" style="">
+Supplementary Table 1a. Comparative Survey-Weighted Annualized GLP-1RA Out-of-Pocket Cost Distributions by Insurance Type Under Simultaneous Universal GLP-1RA Therapy and Targeted SGLT2i Therapy.
+</td>
+</tr>
 <tr class="gt_col_headings">
 <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="a::stub">
 </th>
 <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Baseline-General-Adult-Population">
 Baseline General Adult Population
 </th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Observed-US-Adults-with-BMI">
-Observed US Adults with BMI
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Observed-Eligible-Cohort-GLP-1RA-Users">
+Observed Eligible-Cohort GLP-1RA Users
 </th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Simulated-Universal-Adherence-Cohort">
-Simulated Universal Adherence Cohort
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Simulated-Universal-GLP-1RA-Cohort">
+Simulated Universal GLP-1RA Cohort
 </th>
 </tr>
 </thead>
@@ -2820,10 +2833,10 @@ Weighted N
 <td headers="Overall stub_1_1 Baseline General Adult Population" class="gt_row gt_center">
 5,793,006
 </td>
-<td headers="Overall stub_1_1 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Overall stub_1_1 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 1,925,289
 </td>
-<td headers="Overall stub_1_1 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Overall stub_1_1 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 50,700,246
 </td>
 </tr>
@@ -2834,11 +2847,11 @@ Median Annual OOP
 <td headers="Overall stub_1_2 Baseline General Adult Population" class="gt_row gt_center">
 $267
 </td>
-<td headers="Overall stub_1_2 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Overall stub_1_2 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $328
 </td>
-<td headers="Overall stub_1_2 Simulated Universal Adherence Cohort" class="gt_row gt_center">
-$291
+<td headers="Overall stub_1_2 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
+$290
 </td>
 </tr>
 <tr>
@@ -2848,11 +2861,11 @@ IQR
 <td headers="Overall stub_1_3 Baseline General Adult Population" class="gt_row gt_center">
 $25-$423
 </td>
-<td headers="Overall stub_1_3 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Overall stub_1_3 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $39-$545
 </td>
-<td headers="Overall stub_1_3 Simulated Universal Adherence Cohort" class="gt_row gt_center">
-$43-$407
+<td headers="Overall stub_1_3 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
+$43-$439
 </td>
 </tr>
 <tr>
@@ -2862,11 +2875,11 @@ $43-$407
 <td headers="Overall stub_1_4 Baseline General Adult Population" class="gt_row gt_center">
 $0-$1207
 </td>
-<td headers="Overall stub_1_4 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Overall stub_1_4 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $0-$1623
 </td>
-<td headers="Overall stub_1_4 Simulated Universal Adherence Cohort" class="gt_row gt_center">
-$0-$1536
+<td headers="Overall stub_1_4 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
+$0-$1549
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -2881,10 +2894,10 @@ Weighted N
 <td headers="Medicaid or Dual Eligible stub_1_5 Baseline General Adult Population" class="gt_row gt_center">
 1,385,798
 </td>
-<td headers="Medicaid or Dual Eligible stub_1_5 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Medicaid or Dual Eligible stub_1_5 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 463,652
 </td>
-<td headers="Medicaid or Dual Eligible stub_1_5 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Medicaid or Dual Eligible stub_1_5 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 9,689,339
 </td>
 </tr>
@@ -2895,10 +2908,10 @@ Median Annual OOP
 <td headers="Medicaid or Dual Eligible stub_1_6 Baseline General Adult Population" class="gt_row gt_center">
 $0
 </td>
-<td headers="Medicaid or Dual Eligible stub_1_6 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Medicaid or Dual Eligible stub_1_6 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $0
 </td>
-<td headers="Medicaid or Dual Eligible stub_1_6 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Medicaid or Dual Eligible stub_1_6 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 $0
 </td>
 </tr>
@@ -2909,11 +2922,11 @@ IQR
 <td headers="Medicaid or Dual Eligible stub_1_7 Baseline General Adult Population" class="gt_row gt_center">
 $0-$42
 </td>
-<td headers="Medicaid or Dual Eligible stub_1_7 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Medicaid or Dual Eligible stub_1_7 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $0-$95
 </td>
-<td headers="Medicaid or Dual Eligible stub_1_7 Simulated Universal Adherence Cohort" class="gt_row gt_center">
-$0-$42
+<td headers="Medicaid or Dual Eligible stub_1_7 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
+$0-$33
 </td>
 </tr>
 <tr>
@@ -2923,11 +2936,11 @@ $0-$42
 <td headers="Medicaid or Dual Eligible stub_1_8 Baseline General Adult Population" class="gt_row gt_center">
 $0-$149
 </td>
-<td headers="Medicaid or Dual Eligible stub_1_8 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Medicaid or Dual Eligible stub_1_8 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $0-$545
 </td>
-<td headers="Medicaid or Dual Eligible stub_1_8 Simulated Universal Adherence Cohort" class="gt_row gt_center">
-$0-$133
+<td headers="Medicaid or Dual Eligible stub_1_8 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
+$0-$149
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -2942,10 +2955,10 @@ Weighted N
 <td headers="Medicare stub_1_9 Baseline General Adult Population" class="gt_row gt_center">
 1,526,859
 </td>
-<td headers="Medicare stub_1_9 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Medicare stub_1_9 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 554,346
 </td>
-<td headers="Medicare stub_1_9 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Medicare stub_1_9 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 11,667,518
 </td>
 </tr>
@@ -2956,10 +2969,10 @@ Median Annual OOP
 <td headers="Medicare stub_1_10 Baseline General Adult Population" class="gt_row gt_center">
 $473
 </td>
-<td headers="Medicare stub_1_10 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Medicare stub_1_10 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $621
 </td>
-<td headers="Medicare stub_1_10 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Medicare stub_1_10 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 $407
 </td>
 </tr>
@@ -2970,10 +2983,10 @@ IQR
 <td headers="Medicare stub_1_11 Baseline General Adult Population" class="gt_row gt_center">
 $217-$1067
 </td>
-<td headers="Medicare stub_1_11 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Medicare stub_1_11 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $350-$1567
 </td>
-<td headers="Medicare stub_1_11 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Medicare stub_1_11 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 $143-$722
 </td>
 </tr>
@@ -2984,10 +2997,10 @@ $143-$722
 <td headers="Medicare stub_1_12 Baseline General Adult Population" class="gt_row gt_center">
 $44-$2104
 </td>
-<td headers="Medicare stub_1_12 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Medicare stub_1_12 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $44-$2106
 </td>
-<td headers="Medicare stub_1_12 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Medicare stub_1_12 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 $24-$2104
 </td>
 </tr>
@@ -3003,10 +3016,10 @@ Weighted N
 <td headers="Private/Commercial stub_1_13 Baseline General Adult Population" class="gt_row gt_center">
 2,737,310
 </td>
-<td headers="Private/Commercial stub_1_13 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Private/Commercial stub_1_13 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 897,282
 </td>
-<td headers="Private/Commercial stub_1_13 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Private/Commercial stub_1_13 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 26,395,269
 </td>
 </tr>
@@ -3017,10 +3030,10 @@ Median Annual OOP
 <td headers="Private/Commercial stub_1_14 Baseline General Adult Population" class="gt_row gt_center">
 $326
 </td>
-<td headers="Private/Commercial stub_1_14 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Private/Commercial stub_1_14 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $327
 </td>
-<td headers="Private/Commercial stub_1_14 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Private/Commercial stub_1_14 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 $338
 </td>
 </tr>
@@ -3031,10 +3044,10 @@ IQR
 <td headers="Private/Commercial stub_1_15 Baseline General Adult Population" class="gt_row gt_center">
 $121-$362
 </td>
-<td headers="Private/Commercial stub_1_15 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Private/Commercial stub_1_15 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $121-$362
 </td>
-<td headers="Private/Commercial stub_1_15 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Private/Commercial stub_1_15 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 $169-$362
 </td>
 </tr>
@@ -3045,11 +3058,11 @@ $169-$362
 <td headers="Private/Commercial stub_1_16 Baseline General Adult Population" class="gt_row gt_center">
 $39-$489
 </td>
-<td headers="Private/Commercial stub_1_16 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Private/Commercial stub_1_16 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $0-$1163
 </td>
-<td headers="Private/Commercial stub_1_16 Simulated Universal Adherence Cohort" class="gt_row gt_center">
-$40-$489
+<td headers="Private/Commercial stub_1_16 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
+$40-$676
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -3064,10 +3077,10 @@ Weighted N
 <td headers="Uninsured stub_1_17 Baseline General Adult Population" class="gt_row gt_center">
 143,039
 </td>
-<td headers="Uninsured stub_1_17 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Uninsured stub_1_17 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 10,009
 </td>
-<td headers="Uninsured stub_1_17 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Uninsured stub_1_17 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 2,948,120
 </td>
 </tr>
@@ -3078,10 +3091,10 @@ Median Annual OOP
 <td headers="Uninsured stub_1_18 Baseline General Adult Population" class="gt_row gt_center">
 $986
 </td>
-<td headers="Uninsured stub_1_18 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Uninsured stub_1_18 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $2603
 </td>
-<td headers="Uninsured stub_1_18 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Uninsured stub_1_18 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 $2603
 </td>
 </tr>
@@ -3092,10 +3105,10 @@ IQR
 <td headers="Uninsured stub_1_19 Baseline General Adult Population" class="gt_row gt_center">
 $0-$12174
 </td>
-<td headers="Uninsured stub_1_19 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Uninsured stub_1_19 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $2603-$2603
 </td>
-<td headers="Uninsured stub_1_19 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Uninsured stub_1_19 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 $986-$12174
 </td>
 </tr>
@@ -3106,10 +3119,10 @@ $986-$12174
 <td headers="Uninsured stub_1_20 Baseline General Adult Population" class="gt_row gt_center">
 $0-$12174
 </td>
-<td headers="Uninsured stub_1_20 Observed US Adults with BMI" class="gt_row gt_center">
+<td headers="Uninsured stub_1_20 Observed Eligible-Cohort GLP-1RA Users" class="gt_row gt_center">
 $2603-$2603
 </td>
-<td headers="Uninsured stub_1_20 Simulated Universal Adherence Cohort" class="gt_row gt_center">
+<td headers="Uninsured stub_1_20 Simulated Universal GLP-1RA Cohort" class="gt_row gt_center">
 $0-$13993
 </td>
 </tr>
@@ -3117,22 +3130,12 @@ $0-$13993
 <tfoot>
 <tr class="gt_sourcenotes">
 <td class="gt_sourcenote" colspan="4">
-<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBCTUkgPj0zMC4gTUVQUyAyMDIyIGNyb3NzLXNlY3Rpb25hbCBlc3RpbWF0ZXMuIFN1cnZleS13ZWlnaHRlZCBhbm51YWxpemVkIEdMUC0xUkEgb3V0LW9mLXBvY2tldCBkaXN0cmlidXRpb25zIGFyZSBzaG93biBhcyBtZWRpYW4sIElRUiwgYW5kIDEwdGgtOTB0aCBwZXJjZW50aWxlIHJhbmdlIGJ5IGluc3VyYW5jZSB0eXBlIGluIEphbiAyMDI2IFVTIGRvbGxhcnMuICoqQmFzZWxpbmUgR2VuZXJhbCBBZHVsdCBQb3B1bGF0aW9uKiogPSBhbGwgVVMgYWR1bHRzIGN1cnJlbnRseSB1c2luZyBHTFAtMVJBIHRoZXJhcHkgd2l0aCBvYnNlcnZlZCBkYWlseSBvdXQtb2YtcG9ja2V0IGNvc3RzLiAqKk9ic2VydmVkIFVTIEFkdWx0cyB3aXRoIEJNSSoqID0gb2JzZXJ2ZWQgR0xQLTFSQSB1c2VycyB3aXRoaW4gVVMgQWR1bHRzIHdpdGggQk1JID49MzAuICoqU2ltdWxhdGVkIFVuaXZlcnNhbCBBZGhlcmVuY2UgQ29ob3J0KiogPSBVUyBBZHVsdHMgd2l0aCBCTUkgPj0zMCBhZnRlciB1bml2ZXJzYWwtYWRoZXJlbmNlIGFzc2lnbm1lbnQsIGNvbWJpbmluZyBvYnNlcnZlZCBhbmQgUE1NLWltcHV0ZWQgR0xQLTFSQSBkYWlseSBjb3N0cy4="><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with BMI &gt;=30. MEPS 2022 cross-sectional estimates. Survey-weighted annualized GLP-1RA out-of-pocket distributions are shown as median, IQR, and 10th-90th percentile range by insurance type in Jan 2026 US dollars. <strong>Baseline General Adult Population</strong> = all US adults currently using GLP-1RA therapy with observed daily out-of-pocket costs. <strong>Observed US Adults with BMI</strong> = observed GLP-1RA users within US Adults with BMI &gt;=30. <strong>Simulated Universal Adherence Cohort</strong> = US Adults with BMI &gt;=30 after universal-adherence assignment, combining observed and PMM-imputed GLP-1RA daily costs.</span></span>
+<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBPYmVzaXR5LiBNRVBTIDIwMjIgY3Jvc3Mtc2VjdGlvbmFsIGVzdGltYXRlcy4gU3VydmV5LXdlaWdodGVkIGFubnVhbGl6ZWQgR0xQLTFSQSBvdXQtb2YtcG9ja2V0IGRpc3RyaWJ1dGlvbnMgYXJlIHNob3duIGFzIG1lZGlhbiwgSVFSLCBhbmQgMTB0aC05MHRoIHBlcmNlbnRpbGUgcmFuZ2UgYnkgaW5zdXJhbmNlIHR5cGUgaW4gSmFuIDIwMjYgVVMgZG9sbGFycy4gKipCYXNlbGluZSBHZW5lcmFsIEFkdWx0IFBvcHVsYXRpb24qKiA9IGFsbCBVUyBhZHVsdHMgY3VycmVudGx5IHVzaW5nIEdMUC0xUkEgdGhlcmFweSB3aXRoIG9ic2VydmVkIGRhaWx5IG91dC1vZi1wb2NrZXQgY29zdHMuICoqT2JzZXJ2ZWQgRWxpZ2libGUtQ29ob3J0IEdMUC0xUkEgVXNlcnMqKiA9IG9ic2VydmVkIEdMUC0xUkEgdXNlcnMgd2l0aGluIFVTIEFkdWx0cyB3aXRoIE9iZXNpdHkuICoqU2ltdWxhdGVkIFVuaXZlcnNhbCBHTFAtMVJBIENvaG9ydCoqID0gVVMgQWR1bHRzIHdpdGggT2Jlc2l0eSBhZnRlciBjb21iaW5lZC1wb2xpY3kgYXNzaWdubWVudCwgY29tYmluaW5nIG9ic2VydmVkIGFuZCBQTU0taW1wdXRlZCBHTFAtMVJBIGRhaWx5IGNvc3RzLg=="><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with Obesity. MEPS 2022 cross-sectional estimates. Survey-weighted annualized GLP-1RA out-of-pocket distributions are shown as median, IQR, and 10th-90th percentile range by insurance type in Jan 2026 US dollars. <strong>Baseline General Adult Population</strong> = all US adults currently using GLP-1RA therapy with observed daily out-of-pocket costs. <strong>Observed Eligible-Cohort GLP-1RA Users</strong> = observed GLP-1RA users within US Adults with Obesity. <strong>Simulated Universal GLP-1RA Cohort</strong> = US Adults with Obesity after combined-policy assignment, combining observed and PMM-imputed GLP-1RA daily costs.</span></span>
 </td>
 </tr>
 </tfoot>
 </table>
 </div>
-<table class="caption-top table table-sm table-striped small">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Supplementary Table 2. Projected Annual Out-of-Pocket Savings for Medicare Beneficiaries Stratified by Demographic Subgroups with 95% Bootstrap CIs.</td>
-</tr>
-</tbody>
-</table>
 <div id="wfpzdhyowe" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <p><style>#wfpzdhyowe table { font-family: system-ui, ‘Segoe UI’, Roboto, Helvetica, Arial, sans-serif, ‘Apple Color Emoji’, ‘Segoe UI Emoji’, ‘Segoe UI Symbol’, ‘Noto Color Emoji’; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</p>
 <p>#wfpzdhyowe thead, #wfpzdhyowe tbody, #wfpzdhyowe tfoot, #wfpzdhyowe tr, #wfpzdhyowe td, #wfpzdhyowe th { border-style: none; }</p>
@@ -3190,382 +3193,336 @@ $0-$13993
 #wfpzdhyowe div.Reactable &gt; div.rt-table &gt; div.rt-thead &gt; div.rt-tr.rt-tr-group-header &gt; div.rt-th-group:after { height: 0px !important; } </style>
 </p><table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
+<tr class="gt_heading">
+<td colspan="4" class="gt_heading gt_title gt_font_normal gt_bottom_border" style="">
+Supplementary Table 1b. Comparative Survey-Weighted Annualized SGLT2i Out-of-Pocket Cost Distributions by Insurance Type Under Simultaneous Universal GLP-1RA Therapy and Targeted SGLT2i Therapy.
+</td>
+</tr>
 <tr class="gt_col_headings">
 <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="a::stub">
 </th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Pre-IRA-OOP">
-Pre-IRA OOP
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Baseline-General-Adult-Population">
+Baseline General Adult Population
 </th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Post-IRA-OOP">
-Post-IRA OOP
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Observed-Eligible-Cohort-SGLT2i-Users-with-Eligible-Conditions">
+Observed Eligible-Cohort SGLT2i Users with Eligible Conditions
 </th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Net-Savings">
-Net Savings
-</th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="a%-Benefiting">
-% Benefiting
-</th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Savings-(Beneficiaries)">
-Savings (Beneficiaries)
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Simulated-Targeted-SGLT2i-Cohort">
+Simulated Targeted SGLT2i Cohort
 </th>
 </tr>
 </thead>
 <tbody class="gt_table_body">
 <tr class="gt_group_heading_row">
-<th colspan="6" class="gt_group_heading" scope="colgroup" id="Overall Population">
-Overall Population
+<th colspan="4" class="gt_group_heading" scope="colgroup" id="Overall">
+Overall
 </th>
 </tr>
 <tr class="gt_row_group_first">
 <th id="stub_1_1" scope="row" class="gt_row gt_center gt_stub">
-Overall
+Weighted N
 </th>
-<td headers="Overall Population stub_1_1 Pre-IRA OOP" class="gt_row gt_center">
-$4291 (3868, 4760)
+<td headers="Overall stub_1_1 Baseline General Adult Population" class="gt_row gt_center">
+4,328,720
 </td>
-<td headers="Overall Population stub_1_1 Post-IRA OOP" class="gt_row gt_center">
-$4068 (3648, 4537)
+<td headers="Overall stub_1_1 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+1,229,492
 </td>
-<td headers="Overall Population stub_1_1 Net Savings" class="gt_row gt_center">
-$223 (168, 296)
-</td>
-<td headers="Overall Population stub_1_1 % Benefiting" class="gt_row gt_center">
-17.0 (14.3, 20.0)
-</td>
-<td headers="Overall Population stub_1_1 Savings (Beneficiaries)" class="gt_row gt_center">
-$1307 (1041, 1641)
+<td headers="Overall stub_1_1 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+10,685,980
 </td>
 </tr>
-<tr class="gt_group_heading_row">
-<th colspan="6" class="gt_group_heading" scope="colgroup" id="Age Group">
-Age Group
-</th>
-</tr>
-<tr class="gt_row_group_first">
+<tr>
 <th id="stub_1_2" scope="row" class="gt_row gt_center gt_stub">
-65-74 Years
+Median Annual OOP
 </th>
-<td headers="Age Group stub_1_2 Pre-IRA OOP" class="gt_row gt_center">
-$4288 (3833, 4797)
+<td headers="Overall stub_1_2 Baseline General Adult Population" class="gt_row gt_center">
+$74
 </td>
-<td headers="Age Group stub_1_2 Post-IRA OOP" class="gt_row gt_center">
-$4111 (3664, 4612)
+<td headers="Overall stub_1_2 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$34
 </td>
-<td headers="Age Group stub_1_2 Net Savings" class="gt_row gt_center">
-$177 (133, 237)
-</td>
-<td headers="Age Group stub_1_2 % Benefiting" class="gt_row gt_center">
-15.3 (12.0, 19.0)
-</td>
-<td headers="Age Group stub_1_2 Savings (Beneficiaries)" class="gt_row gt_center">
-$1161 (958, 1407)
+<td headers="Overall stub_1_2 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$61
 </td>
 </tr>
 <tr>
 <th id="stub_1_3" scope="row" class="gt_row gt_center gt_stub">
-≥75 Years
+IQR
 </th>
-<td headers="Age Group stub_1_3 Pre-IRA OOP" class="gt_row gt_center">
-$4298 (3491, 5292)
+<td headers="Overall stub_1_3 Baseline General Adult Population" class="gt_row gt_center">
+$0-$337
 </td>
-<td headers="Age Group stub_1_3 Post-IRA OOP" class="gt_row gt_center">
-$3982 (3179, 4988)
+<td headers="Overall stub_1_3 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$0-$203
 </td>
-<td headers="Age Group stub_1_3 Net Savings" class="gt_row gt_center">
-$316 (194, 515)
-</td>
-<td headers="Age Group stub_1_3 % Benefiting" class="gt_row gt_center">
-20.7 (16.3, 25.7)
-</td>
-<td headers="Age Group stub_1_3 Savings (Beneficiaries)" class="gt_row gt_center">
-$1528 (1009, 2314)
-</td>
-</tr>
-<tr class="gt_group_heading_row">
-<th colspan="6" class="gt_group_heading" scope="colgroup" id="Sex">
-Sex
-</th>
-</tr>
-<tr class="gt_row_group_first">
-<th id="stub_1_4" scope="row" class="gt_row gt_center gt_stub">
-Female
-</th>
-<td headers="Sex stub_1_4 Pre-IRA OOP" class="gt_row gt_center">
-$4457 (4023, 4938)
-</td>
-<td headers="Sex stub_1_4 Post-IRA OOP" class="gt_row gt_center">
-$4259 (3836, 4729)
-</td>
-<td headers="Sex stub_1_4 Net Savings" class="gt_row gt_center">
-$198 (143, 274)
-</td>
-<td headers="Sex stub_1_4 % Benefiting" class="gt_row gt_center">
-16.4 (12.7, 20.7)
-</td>
-<td headers="Sex stub_1_4 Savings (Beneficiaries)" class="gt_row gt_center">
-$1211 (1001, 1465)
+<td headers="Overall stub_1_3 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$0-$293
 </td>
 </tr>
 <tr>
-<th id="stub_1_5" scope="row" class="gt_row gt_center gt_stub">
-Male
+<th id="stub_1_4" scope="row" class="gt_row gt_center gt_stub">
+10th-90th Percentiles
 </th>
-<td headers="Sex stub_1_5 Pre-IRA OOP" class="gt_row gt_center">
-$4110 (3451, 4895)
+<td headers="Overall stub_1_4 Baseline General Adult Population" class="gt_row gt_center">
+$0-$1134
 </td>
-<td headers="Sex stub_1_5 Post-IRA OOP" class="gt_row gt_center">
-$3860 (3213, 4638)
+<td headers="Overall stub_1_4 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$0-$1134
 </td>
-<td headers="Sex stub_1_5 Net Savings" class="gt_row gt_center">
-$250 (158, 395)
-</td>
-<td headers="Sex stub_1_5 % Benefiting" class="gt_row gt_center">
-17.8 (13.6, 22.6)
-</td>
-<td headers="Sex stub_1_5 Savings (Beneficiaries)" class="gt_row gt_center">
-$1404 (944, 2087)
+<td headers="Overall stub_1_4 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$0-$1134
 </td>
 </tr>
 <tr class="gt_group_heading_row">
-<th colspan="6" class="gt_group_heading" scope="colgroup" id="Income Level">
-Income Level
+<th colspan="4" class="gt_group_heading" scope="colgroup" id="Medicaid or Dual Eligible">
+Medicaid or Dual Eligible
 </th>
 </tr>
 <tr class="gt_row_group_first">
-<th id="stub_1_6" scope="row" class="gt_row gt_center gt_stub">
-Low (&lt;125% FPL)
+<th id="stub_1_5" scope="row" class="gt_row gt_center gt_stub">
+Weighted N
 </th>
-<td headers="Income Level stub_1_6 Pre-IRA OOP" class="gt_row gt_center">
-$3207 (2566, 4007)
+<td headers="Medicaid or Dual Eligible stub_1_5 Baseline General Adult Population" class="gt_row gt_center">
+1,210,684
 </td>
-<td headers="Income Level stub_1_6 Post-IRA OOP" class="gt_row gt_center">
-$2929 (2325, 3691)
+<td headers="Medicaid or Dual Eligible stub_1_5 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+342,932
 </td>
-<td headers="Income Level stub_1_6 Net Savings" class="gt_row gt_center">
-$277 (153, 503)
+<td headers="Medicaid or Dual Eligible stub_1_5 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+2,648,361
 </td>
-<td headers="Income Level stub_1_6 % Benefiting" class="gt_row gt_center">
-22.1 (14.3, 31.7)
+</tr>
+<tr>
+<th id="stub_1_6" scope="row" class="gt_row gt_center gt_stub">
+Median Annual OOP
+</th>
+<td headers="Medicaid or Dual Eligible stub_1_6 Baseline General Adult Population" class="gt_row gt_center">
+$0
 </td>
-<td headers="Income Level stub_1_6 Savings (Beneficiaries)" class="gt_row gt_center">
-$1257 (724, 2183)
+<td headers="Medicaid or Dual Eligible stub_1_6 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$0
+</td>
+<td headers="Medicaid or Dual Eligible stub_1_6 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$0
 </td>
 </tr>
 <tr>
 <th id="stub_1_7" scope="row" class="gt_row gt_center gt_stub">
-Middle (125%-400% FPL)
+IQR
 </th>
-<td headers="Income Level stub_1_7 Pre-IRA OOP" class="gt_row gt_center">
-$3883 (3262, 4623)
+<td headers="Medicaid or Dual Eligible stub_1_7 Baseline General Adult Population" class="gt_row gt_center">
+$0-$34
 </td>
-<td headers="Income Level stub_1_7 Post-IRA OOP" class="gt_row gt_center">
-$3680 (3065, 4420)
+<td headers="Medicaid or Dual Eligible stub_1_7 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$0-$18
 </td>
-<td headers="Income Level stub_1_7 Net Savings" class="gt_row gt_center">
-$203 (124, 331)
-</td>
-<td headers="Income Level stub_1_7 % Benefiting" class="gt_row gt_center">
-17.9 (13.5, 22.9)
-</td>
-<td headers="Income Level stub_1_7 Savings (Beneficiaries)" class="gt_row gt_center">
-$1136 (745, 1731)
+<td headers="Medicaid or Dual Eligible stub_1_7 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$0-$18
 </td>
 </tr>
 <tr>
 <th id="stub_1_8" scope="row" class="gt_row gt_center gt_stub">
-High (&gt;400% FPL)
+10th-90th Percentiles
 </th>
-<td headers="Income Level stub_1_8 Pre-IRA OOP" class="gt_row gt_center">
-$4941 (4378, 5577)
+<td headers="Medicaid or Dual Eligible stub_1_8 Baseline General Adult Population" class="gt_row gt_center">
+$0-$54
 </td>
-<td headers="Income Level stub_1_8 Post-IRA OOP" class="gt_row gt_center">
-$4708 (4152, 5339)
+<td headers="Medicaid or Dual Eligible stub_1_8 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$0-$34
 </td>
-<td headers="Income Level stub_1_8 Net Savings" class="gt_row gt_center">
-$233 (159, 343)
-</td>
-<td headers="Income Level stub_1_8 % Benefiting" class="gt_row gt_center">
-15.2 (11.2, 19.9)
-</td>
-<td headers="Income Level stub_1_8 Savings (Beneficiaries)" class="gt_row gt_center">
-$1535 (1174, 2007)
+<td headers="Medicaid or Dual Eligible stub_1_8 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$0-$48
 </td>
 </tr>
 <tr class="gt_group_heading_row">
-<th colspan="6" class="gt_group_heading" scope="colgroup" id="Race and Ethnicity">
-Race and Ethnicity
+<th colspan="4" class="gt_group_heading" scope="colgroup" id="Medicare">
+Medicare
 </th>
 </tr>
 <tr class="gt_row_group_first">
 <th id="stub_1_9" scope="row" class="gt_row gt_center gt_stub">
-White
+Weighted N
 </th>
-<td headers="Race and Ethnicity stub_1_9 Pre-IRA OOP" class="gt_row gt_center">
-$4518 (4010, 5090)
+<td headers="Medicare stub_1_9 Baseline General Adult Population" class="gt_row gt_center">
+1,557,235
 </td>
-<td headers="Race and Ethnicity stub_1_9 Post-IRA OOP" class="gt_row gt_center">
-$4316 (3804, 4896)
+<td headers="Medicare stub_1_9 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+508,337
 </td>
-<td headers="Race and Ethnicity stub_1_9 Net Savings" class="gt_row gt_center">
-$202 (153, 267)
-</td>
-<td headers="Race and Ethnicity stub_1_9 % Benefiting" class="gt_row gt_center">
-16.4 (13.5, 19.7)
-</td>
-<td headers="Race and Ethnicity stub_1_9 Savings (Beneficiaries)" class="gt_row gt_center">
-$1234 (1011, 1506)
+<td headers="Medicare stub_1_9 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+4,079,699
 </td>
 </tr>
 <tr>
 <th id="stub_1_10" scope="row" class="gt_row gt_center gt_stub">
-Black
+Median Annual OOP
 </th>
-<td headers="Race and Ethnicity stub_1_10 Pre-IRA OOP" class="gt_row gt_center">
-$3436 (2645, 4464)
+<td headers="Medicare stub_1_10 Baseline General Adult Population" class="gt_row gt_center">
+$216
 </td>
-<td headers="Race and Ethnicity stub_1_10 Post-IRA OOP" class="gt_row gt_center">
-$3043 (2335, 3965)
+<td headers="Medicare stub_1_10 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$102
 </td>
-<td headers="Race and Ethnicity stub_1_10 Net Savings" class="gt_row gt_center">
-$393 (149, 1036)
-</td>
-<td headers="Race and Ethnicity stub_1_10 % Benefiting" class="gt_row gt_center">
-22.7 (13.2, 34.7)
-</td>
-<td headers="Race and Ethnicity stub_1_10 Savings (Beneficiaries)" class="gt_row gt_center">
-$1734 (777, 3872)
+<td headers="Medicare stub_1_10 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$153
 </td>
 </tr>
 <tr>
 <th id="stub_1_11" scope="row" class="gt_row gt_center gt_stub">
-Hispanic or Latino
+IQR
 </th>
-<td headers="Race and Ethnicity stub_1_11 Pre-IRA OOP" class="gt_row gt_center">
-$2987 (2060, 4332)
+<td headers="Medicare stub_1_11 Baseline General Adult Population" class="gt_row gt_center">
+$68-$568
 </td>
-<td headers="Race and Ethnicity stub_1_11 Post-IRA OOP" class="gt_row gt_center">
-$2864 (1955, 4197)
+<td headers="Medicare stub_1_11 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$0-$568
 </td>
-<td headers="Race and Ethnicity stub_1_11 Net Savings" class="gt_row gt_center">
-$122 (42, 355)*
-</td>
-<td headers="Race and Ethnicity stub_1_11 % Benefiting" class="gt_row gt_center">
-17.4 (5.5, 37.1)*
-</td>
-<td headers="Race and Ethnicity stub_1_11 Savings (Beneficiaries)" class="gt_row gt_center">
-$703 (190, 2607)*
+<td headers="Medicare stub_1_11 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$0-$589
 </td>
 </tr>
 <tr>
 <th id="stub_1_12" scope="row" class="gt_row gt_center gt_stub">
-Other Race and Ethnicity
+10th-90th Percentiles
 </th>
-<td headers="Race and Ethnicity stub_1_12 Pre-IRA OOP" class="gt_row gt_center">
-$3164 (2164, 4626)
+<td headers="Medicare stub_1_12 Baseline General Adult Population" class="gt_row gt_center">
+$0-$1700
 </td>
-<td headers="Race and Ethnicity stub_1_12 Post-IRA OOP" class="gt_row gt_center">
-$2822 (1949, 4084)
+<td headers="Medicare stub_1_12 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$0-$1408
 </td>
-<td headers="Race and Ethnicity stub_1_12 Net Savings" class="gt_row gt_center">
-$342 (79, 1483)*
-</td>
-<td headers="Race and Ethnicity stub_1_12 % Benefiting" class="gt_row gt_center">
-12.4 (1.7, 36.9)*
-</td>
-<td headers="Race and Ethnicity stub_1_12 Savings (Beneficiaries)" class="gt_row gt_center">
-$2751 (1638, 4621)*
+<td headers="Medicare stub_1_12 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$0-$1367
 </td>
 </tr>
 <tr class="gt_group_heading_row">
-<th colspan="6" class="gt_group_heading" scope="colgroup" id="Census Region">
-Census Region
+<th colspan="4" class="gt_group_heading" scope="colgroup" id="Private/Commercial">
+Private/Commercial
 </th>
 </tr>
 <tr class="gt_row_group_first">
 <th id="stub_1_13" scope="row" class="gt_row gt_center gt_stub">
-Northeast
+Weighted N
 </th>
-<td headers="Census Region stub_1_13 Pre-IRA OOP" class="gt_row gt_center">
-$5723 (4239, 7727)
+<td headers="Private/Commercial stub_1_13 Baseline General Adult Population" class="gt_row gt_center">
+1,459,734
 </td>
-<td headers="Census Region stub_1_13 Post-IRA OOP" class="gt_row gt_center">
-$5385 (3925, 7388)
+<td headers="Private/Commercial stub_1_13 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+340,629
 </td>
-<td headers="Census Region stub_1_13 Net Savings" class="gt_row gt_center">
-$338 (153, 749)
-</td>
-<td headers="Census Region stub_1_13 % Benefiting" class="gt_row gt_center">
-18.5 (12.0, 26.6)
-</td>
-<td headers="Census Region stub_1_13 Savings (Beneficiaries)" class="gt_row gt_center">
-$1827 (960, 3479)
+<td headers="Private/Commercial stub_1_13 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+3,730,138
 </td>
 </tr>
 <tr>
 <th id="stub_1_14" scope="row" class="gt_row gt_center gt_stub">
-Midwest
+Median Annual OOP
 </th>
-<td headers="Census Region stub_1_14 Pre-IRA OOP" class="gt_row gt_center">
-$3488 (3079, 3952)
+<td headers="Private/Commercial stub_1_14 Baseline General Adult Population" class="gt_row gt_center">
+$153
 </td>
-<td headers="Census Region stub_1_14 Post-IRA OOP" class="gt_row gt_center">
-$3253 (2874, 3683)
+<td headers="Private/Commercial stub_1_14 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$113
 </td>
-<td headers="Census Region stub_1_14 Net Savings" class="gt_row gt_center">
-$235 (159, 349)
-</td>
-<td headers="Census Region stub_1_14 % Benefiting" class="gt_row gt_center">
-17.6 (12.5, 23.8)
-</td>
-<td headers="Census Region stub_1_14 Savings (Beneficiaries)" class="gt_row gt_center">
-$1336 (1044, 1708)
+<td headers="Private/Commercial stub_1_14 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$113
 </td>
 </tr>
 <tr>
 <th id="stub_1_15" scope="row" class="gt_row gt_center gt_stub">
-South
+IQR
 </th>
-<td headers="Census Region stub_1_15 Pre-IRA OOP" class="gt_row gt_center">
-$3783 (3348, 4275)
+<td headers="Private/Commercial stub_1_15 Baseline General Adult Population" class="gt_row gt_center">
+$23-$293
 </td>
-<td headers="Census Region stub_1_15 Post-IRA OOP" class="gt_row gt_center">
-$3609 (3184, 4091)
+<td headers="Private/Commercial stub_1_15 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$23-$203
 </td>
-<td headers="Census Region stub_1_15 Net Savings" class="gt_row gt_center">
-$174 (115, 262)
-</td>
-<td headers="Census Region stub_1_15 % Benefiting" class="gt_row gt_center">
-17.1 (12.5, 22.7)
-</td>
-<td headers="Census Region stub_1_15 Savings (Beneficiaries)" class="gt_row gt_center">
-$1015 (781, 1318)
+<td headers="Private/Commercial stub_1_15 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$31-$239
 </td>
 </tr>
 <tr>
 <th id="stub_1_16" scope="row" class="gt_row gt_center gt_stub">
-West
+10th-90th Percentiles
 </th>
-<td headers="Census Region stub_1_16 Pre-IRA OOP" class="gt_row gt_center">
-$5098 (3949, 6580)
+<td headers="Private/Commercial stub_1_16 Baseline General Adult Population" class="gt_row gt_center">
+$0-$541
 </td>
-<td headers="Census Region stub_1_16 Post-IRA OOP" class="gt_row gt_center">
-$4917 (3772, 6410)
+<td headers="Private/Commercial stub_1_16 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$0-$541
 </td>
-<td headers="Census Region stub_1_16 Net Savings" class="gt_row gt_center">
-$180 (87, 372)
+<td headers="Private/Commercial stub_1_16 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$0-$1747
 </td>
-<td headers="Census Region stub_1_16 % Benefiting" class="gt_row gt_center">
-14.4 (9.5, 20.7)
+</tr>
+<tr class="gt_group_heading_row">
+<th colspan="4" class="gt_group_heading" scope="colgroup" id="Uninsured">
+Uninsured
+</th>
+</tr>
+<tr class="gt_row_group_first">
+<th id="stub_1_17" scope="row" class="gt_row gt_center gt_stub">
+Weighted N
+</th>
+<td headers="Uninsured stub_1_17 Baseline General Adult Population" class="gt_row gt_center">
+101,067
 </td>
-<td headers="Census Region stub_1_16 Savings (Beneficiaries)" class="gt_row gt_center">
-$1248 (656, 2374)
+<td headers="Uninsured stub_1_17 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+37,594
+</td>
+<td headers="Uninsured stub_1_17 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+227,782
+</td>
+</tr>
+<tr>
+<th id="stub_1_18" scope="row" class="gt_row gt_center gt_stub">
+Median Annual OOP
+</th>
+<td headers="Uninsured stub_1_18 Baseline General Adult Population" class="gt_row gt_center">
+$337
+</td>
+<td headers="Uninsured stub_1_18 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$8789
+</td>
+<td headers="Uninsured stub_1_18 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$2511
+</td>
+</tr>
+<tr>
+<th id="stub_1_19" scope="row" class="gt_row gt_center gt_stub">
+IQR
+</th>
+<td headers="Uninsured stub_1_19 Baseline General Adult Population" class="gt_row gt_center">
+$146-$8789
+</td>
+<td headers="Uninsured stub_1_19 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$8789-$8789
+</td>
+<td headers="Uninsured stub_1_19 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$57-$3880
+</td>
+</tr>
+<tr>
+<th id="stub_1_20" scope="row" class="gt_row gt_center gt_stub">
+10th-90th Percentiles
+</th>
+<td headers="Uninsured stub_1_20 Baseline General Adult Population" class="gt_row gt_center">
+$57-$8789
+</td>
+<td headers="Uninsured stub_1_20 Observed Eligible-Cohort SGLT2i Users with Eligible Conditions" class="gt_row gt_center">
+$3880-$8789
+</td>
+<td headers="Uninsured stub_1_20 Simulated Targeted SGLT2i Cohort" class="gt_row gt_center">
+$22-$8789
 </td>
 </tr>
 </tbody>
 <tfoot>
 <tr class="gt_sourcenotes">
-<td class="gt_sourcenote" colspan="6">
-<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBCTUkgPj0zMC4gTUVQUyAyMDIyIGNyb3NzLXNlY3Rpb25hbCBlc3RpbWF0ZXMgYXBwbHkgc3BlY2lmaWNhbGx5IHRvIHRoZSBNZWRpY2FyZSBiZW5lZmljaWFyeSBwb3B1bGF0aW9uLiBWYWx1ZXMgYXJlIE1lYW4gKDk1JSBDSSkuICdQcmUtSVJBIE9PUCcgcmVmbGVjdHMgdGhlIHVuaXZlcnNhbCBHTFAtMVJBIGluc3VyYW5jZSBwYXRod2F5OyAnUG9zdC1JUkEgT09QJyBhcHBsaWVzIHRoZSBNZWRpY2FyZSBQYXJ0IEQgY2FwLiBDb3N0cyBhcmUgcmVwb3J0ZWQgaW4gSmFuIDIwMjYgVVMgZG9sbGFycy4gQ0lzIGZvciBjb3N0cyB1c2UgYm9vdHN0cmFwIHN0YW5kYXJkIGVycm9ycyB3aXRoIGxvZy10cmFuc2Zvcm1hdGlvbjsgQ0lzIGZvciBwcm9wb3J0aW9ucyB1c2UgS29ybi1HcmF1YmFyZCBiZXRhIGludGVydmFscy4gRXN0aW1hdGVzIG1hcmtlZCB3aXRoIGFuIGFzdGVyaXNrICgqKSBhcmUgY29uc2lkZXJlZCBzdGF0aXN0aWNhbGx5IHVucmVsaWFibGUgcGVyIHRoZSAyMDE3IE5hdGlvbmFsIENlbnRlciBmb3IgSGVhbHRoIFN0YXRpc3RpY3Mgc3RhbmRhcmRzIChkdWUgdG8gaGlnaCByZWxhdGl2ZSBzdGFuZGFyZCBlcnJvciwgaW5zdWZmaWNpZW50IGVmZmVjdGl2ZSBzYW1wbGUgc2l6ZSwgb3IgbG93IGRlZ3JlZXMgb2YgZnJlZWRvbSku"><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with BMI &gt;=30. MEPS 2022 cross-sectional estimates apply specifically to the Medicare beneficiary population. Values are Mean (95% CI). ‘Pre-IRA OOP’ reflects the universal GLP-1RA insurance pathway; ‘Post-IRA OOP’ applies the Medicare Part D cap. Costs are reported in Jan 2026 US dollars. CIs for costs use bootstrap standard errors with log-transformation; CIs for proportions use Korn-Graubard beta intervals. Estimates marked with an asterisk (*) are considered statistically unreliable per the 2017 National Center for Health Statistics standards (due to high relative standard error, insufficient effective sample size, or low degrees of freedom).</span></span>
+<td class="gt_sourcenote" colspan="4">
+<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBPYmVzaXR5LiBNRVBTIDIwMjIgY3Jvc3Mtc2VjdGlvbmFsIGVzdGltYXRlcy4gU3VydmV5LXdlaWdodGVkIGFubnVhbGl6ZWQgU0dMVDJpIG91dC1vZi1wb2NrZXQgZGlzdHJpYnV0aW9ucyBhcmUgc2hvd24gYXMgbWVkaWFuLCBJUVIsIGFuZCAxMHRoLTkwdGggcGVyY2VudGlsZSByYW5nZSBieSBpbnN1cmFuY2UgdHlwZSBpbiBKYW4gMjAyNiBVUyBkb2xsYXJzLiAqKkJhc2VsaW5lIEdlbmVyYWwgQWR1bHQgUG9wdWxhdGlvbioqID0gYWxsIFVTIGFkdWx0cyBjdXJyZW50bHkgdXNpbmcgU0dMVDJpIHRoZXJhcHkgd2l0aCBvYnNlcnZlZCBkYWlseSBvdXQtb2YtcG9ja2V0IGNvc3RzLiAqKk9ic2VydmVkIEVsaWdpYmxlLUNvaG9ydCBTR0xUMmkgVXNlcnMgd2l0aCBFbGlnaWJsZSBDb25kaXRpb25zKiogPSBvYnNlcnZlZCBTR0xUMmkgdXNlcnMgd2l0aGluIFVTIEFkdWx0cyB3aXRoIE9iZXNpdHkgd2hvIGhhdmUgdHlwZSAyIGRpYWJldGVzLCBoZWFydCBmYWlsdXJlLCBvciBjaHJvbmljIGtpZG5leSBkaXNlYXNlLiAqKlNpbXVsYXRlZCBUYXJnZXRlZCBTR0xUMmkgQ29ob3J0KiogPSBVUyBBZHVsdHMgd2l0aCBPYmVzaXR5IG1lbWJlcnMgd2l0aCB0eXBlIDIgZGlhYmV0ZXMsIGhlYXJ0IGZhaWx1cmUsIG9yIGNocm9uaWMga2lkbmV5IGRpc2Vhc2UgYWZ0ZXIgY29tYmluZWQtcG9saWN5IGFzc2lnbm1lbnQsIGNvbWJpbmluZyBvYnNlcnZlZCBhbmQgUE1NLWltcHV0ZWQgU0dMVDJpIGRhaWx5IGNvc3RzLg=="><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with Obesity. MEPS 2022 cross-sectional estimates. Survey-weighted annualized SGLT2i out-of-pocket distributions are shown as median, IQR, and 10th-90th percentile range by insurance type in Jan 2026 US dollars. <strong>Baseline General Adult Population</strong> = all US adults currently using SGLT2i therapy with observed daily out-of-pocket costs. <strong>Observed Eligible-Cohort SGLT2i Users with Eligible Conditions</strong> = observed SGLT2i users within US Adults with Obesity who have type 2 diabetes, heart failure, or chronic kidney disease. <strong>Simulated Targeted SGLT2i Cohort</strong> = US Adults with Obesity members with type 2 diabetes, heart failure, or chronic kidney disease after combined-policy assignment, combining observed and PMM-imputed SGLT2i daily costs.</span></span>
 </td>
 </tr>
 </tfoot>
@@ -3577,7 +3534,7 @@ $1248 (656, 2374)
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Supplementary Table 3. Sensitivity Analysis: Projected Financial Toxicity (FT) Including Non-Medicare Populations.</td>
+<td>Supplementary Table 2. Projected Annual Out-of-Pocket Savings for Medicare Beneficiaries Stratified by Demographic Subgroups with 95% Bootstrap CIs.</td>
 </tr>
 </tbody>
 </table>
@@ -3641,14 +3598,462 @@ $1248 (656, 2374)
 <tr class="gt_col_headings">
 <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="a::stub">
 </th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Pre-IRA-OOP">
+Pre-IRA OOP
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Post-IRA-OOP">
+Post-IRA OOP
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Net-Savings">
+Net Savings
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="a%-Benefiting">
+% Benefiting
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Savings-(Beneficiaries)">
+Savings (Beneficiaries)
+</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row">
+<th colspan="6" class="gt_group_heading" scope="colgroup" id="Overall Population">
+Overall Population
+</th>
+</tr>
+<tr class="gt_row_group_first">
+<th id="stub_1_1" scope="row" class="gt_row gt_center gt_stub">
+Overall
+</th>
+<td headers="Overall Population stub_1_1 Pre-IRA OOP" class="gt_row gt_center">
+$4434 (4008, 4905)
+</td>
+<td headers="Overall Population stub_1_1 Post-IRA OOP" class="gt_row gt_center">
+$4147 (3726, 4617)
+</td>
+<td headers="Overall Population stub_1_1 Net Savings" class="gt_row gt_center">
+$287 (226, 364)
+</td>
+<td headers="Overall Population stub_1_1 % Benefiting" class="gt_row gt_center">
+20.1 (17.1, 23.3)
+</td>
+<td headers="Overall Population stub_1_1 Savings (Beneficiaries)" class="gt_row gt_center">
+$1427 (1195, 1704)
+</td>
+</tr>
+<tr class="gt_group_heading_row">
+<th colspan="6" class="gt_group_heading" scope="colgroup" id="Age Group">
+Age Group
+</th>
+</tr>
+<tr class="gt_row_group_first">
+<th id="stub_1_2" scope="row" class="gt_row gt_center gt_stub">
+65-74 Years
+</th>
+<td headers="Age Group stub_1_2 Pre-IRA OOP" class="gt_row gt_center">
+$4430 (3973, 4940)
+</td>
+<td headers="Age Group stub_1_2 Post-IRA OOP" class="gt_row gt_center">
+$4196 (3748, 4698)
+</td>
+<td headers="Age Group stub_1_2 Net Savings" class="gt_row gt_center">
+$234 (180, 305)
+</td>
+<td headers="Age Group stub_1_2 % Benefiting" class="gt_row gt_center">
+18.9 (15.3, 23.0)
+</td>
+<td headers="Age Group stub_1_2 Savings (Beneficiaries)" class="gt_row gt_center">
+$1239 (1051, 1462)
+</td>
+</tr>
+<tr>
+<th id="stub_1_3" scope="row" class="gt_row gt_center gt_stub">
+≥75 Years
+</th>
+<td headers="Age Group stub_1_3 Pre-IRA OOP" class="gt_row gt_center">
+$4443 (3622, 5450)
+</td>
+<td headers="Age Group stub_1_3 Post-IRA OOP" class="gt_row gt_center">
+$4048 (3243, 5053)
+</td>
+<td headers="Age Group stub_1_3 Net Savings" class="gt_row gt_center">
+$394 (258, 603)
+</td>
+<td headers="Age Group stub_1_3 % Benefiting" class="gt_row gt_center">
+22.5 (17.9, 27.7)
+</td>
+<td headers="Age Group stub_1_3 Savings (Beneficiaries)" class="gt_row gt_center">
+$1749 (1226, 2495)
+</td>
+</tr>
+<tr class="gt_group_heading_row">
+<th colspan="6" class="gt_group_heading" scope="colgroup" id="Sex">
+Sex
+</th>
+</tr>
+<tr class="gt_row_group_first">
+<th id="stub_1_4" scope="row" class="gt_row gt_center gt_stub">
+Female
+</th>
+<td headers="Sex stub_1_4 Pre-IRA OOP" class="gt_row gt_center">
+$4572 (4138, 5051)
+</td>
+<td headers="Sex stub_1_4 Post-IRA OOP" class="gt_row gt_center">
+$4330 (3907, 4798)
+</td>
+<td headers="Sex stub_1_4 Net Savings" class="gt_row gt_center">
+$242 (178, 329)
+</td>
+<td headers="Sex stub_1_4 % Benefiting" class="gt_row gt_center">
+19.9 (15.8, 24.5)
+</td>
+<td headers="Sex stub_1_4 Savings (Beneficiaries)" class="gt_row gt_center">
+$1218 (1011, 1466)
+</td>
+</tr>
+<tr>
+<th id="stub_1_5" scope="row" class="gt_row gt_center gt_stub">
+Male
+</th>
+<td headers="Sex stub_1_5 Pre-IRA OOP" class="gt_row gt_center">
+$4284 (3617, 5074)
+</td>
+<td headers="Sex stub_1_5 Post-IRA OOP" class="gt_row gt_center">
+$3948 (3300, 4723)
+</td>
+<td headers="Sex stub_1_5 Net Savings" class="gt_row gt_center">
+$336 (233, 485)
+</td>
+<td headers="Sex stub_1_5 % Benefiting" class="gt_row gt_center">
+20.3 (15.9, 25.4)
+</td>
+<td headers="Sex stub_1_5 Savings (Beneficiaries)" class="gt_row gt_center">
+$1651 (1220, 2234)
+</td>
+</tr>
+<tr class="gt_group_heading_row">
+<th colspan="6" class="gt_group_heading" scope="colgroup" id="Income Level">
+Income Level
+</th>
+</tr>
+<tr class="gt_row_group_first">
+<th id="stub_1_6" scope="row" class="gt_row gt_center gt_stub">
+Low (&lt;125% FPL)
+</th>
+<td headers="Income Level stub_1_6 Pre-IRA OOP" class="gt_row gt_center">
+$3388 (2730, 4206)
+</td>
+<td headers="Income Level stub_1_6 Post-IRA OOP" class="gt_row gt_center">
+$3077 (2462, 3844)
+</td>
+<td headers="Income Level stub_1_6 Net Savings" class="gt_row gt_center">
+$312 (183, 530)
+</td>
+<td headers="Income Level stub_1_6 % Benefiting" class="gt_row gt_center">
+27.4 (18.1, 38.4)
+</td>
+<td headers="Income Level stub_1_6 Savings (Beneficiaries)" class="gt_row gt_center">
+$1139 (771, 1681)
+</td>
+</tr>
+<tr>
+<th id="stub_1_7" scope="row" class="gt_row gt_center gt_stub">
+Middle (125%-400% FPL)
+</th>
+<td headers="Income Level stub_1_7 Pre-IRA OOP" class="gt_row gt_center">
+$4045 (3414, 4792)
+</td>
+<td headers="Income Level stub_1_7 Post-IRA OOP" class="gt_row gt_center">
+$3756 (3139, 4495)
+</td>
+<td headers="Income Level stub_1_7 Net Savings" class="gt_row gt_center">
+$289 (196, 425)
+</td>
+<td headers="Income Level stub_1_7 % Benefiting" class="gt_row gt_center">
+21.1 (16.4, 26.4)
+</td>
+<td headers="Income Level stub_1_7 Savings (Beneficiaries)" class="gt_row gt_center">
+$1369 (1022, 1833)
+</td>
+</tr>
+<tr>
+<th id="stub_1_8" scope="row" class="gt_row gt_center gt_stub">
+High (&gt;400% FPL)
+</th>
+<td headers="Income Level stub_1_8 Pre-IRA OOP" class="gt_row gt_center">
+$5057 (4494, 5691)
+</td>
+<td headers="Income Level stub_1_8 Post-IRA OOP" class="gt_row gt_center">
+$4777 (4220, 5408)
+</td>
+<td headers="Income Level stub_1_8 Net Savings" class="gt_row gt_center">
+$280 (198, 395)
+</td>
+<td headers="Income Level stub_1_8 % Benefiting" class="gt_row gt_center">
+17.6 (13.3, 22.5)
+</td>
+<td headers="Income Level stub_1_8 Savings (Beneficiaries)" class="gt_row gt_center">
+$1591 (1249, 2028)
+</td>
+</tr>
+<tr class="gt_group_heading_row">
+<th colspan="6" class="gt_group_heading" scope="colgroup" id="Race and Ethnicity">
+Race and Ethnicity
+</th>
+</tr>
+<tr class="gt_row_group_first">
+<th id="stub_1_9" scope="row" class="gt_row gt_center gt_stub">
+White
+</th>
+<td headers="Race and Ethnicity stub_1_9 Pre-IRA OOP" class="gt_row gt_center">
+$4648 (4139, 5219)
+</td>
+<td headers="Race and Ethnicity stub_1_9 Post-IRA OOP" class="gt_row gt_center">
+$4388 (3875, 4969)
+</td>
+<td headers="Race and Ethnicity stub_1_9 Net Savings" class="gt_row gt_center">
+$259 (203, 332)
+</td>
+<td headers="Race and Ethnicity stub_1_9 % Benefiting" class="gt_row gt_center">
+19.9 (16.7, 23.4)
+</td>
+<td headers="Race and Ethnicity stub_1_9 Savings (Beneficiaries)" class="gt_row gt_center">
+$1304 (1093, 1555)
+</td>
+</tr>
+<tr>
+<th id="stub_1_10" scope="row" class="gt_row gt_center gt_stub">
+Black
+</th>
+<td headers="Race and Ethnicity stub_1_10 Pre-IRA OOP" class="gt_row gt_center">
+$3652 (2858, 4667)
+</td>
+<td headers="Race and Ethnicity stub_1_10 Post-IRA OOP" class="gt_row gt_center">
+$3138 (2439, 4038)
+</td>
+<td headers="Race and Ethnicity stub_1_10 Net Savings" class="gt_row gt_center">
+$514 (228, 1158)
+</td>
+<td headers="Race and Ethnicity stub_1_10 % Benefiting" class="gt_row gt_center">
+22.7 (13.2, 34.7)
+</td>
+<td headers="Race and Ethnicity stub_1_10 Savings (Beneficiaries)" class="gt_row gt_center">
+$2267 (1252, 4106)
+</td>
+</tr>
+<tr>
+<th id="stub_1_11" scope="row" class="gt_row gt_center gt_stub">
+Hispanic or Latino
+</th>
+<td headers="Race and Ethnicity stub_1_11 Pre-IRA OOP" class="gt_row gt_center">
+$3191 (2230, 4565)
+</td>
+<td headers="Race and Ethnicity stub_1_11 Post-IRA OOP" class="gt_row gt_center">
+$3022 (2085, 4380)
+</td>
+<td headers="Race and Ethnicity stub_1_11 Net Savings" class="gt_row gt_center">
+$168 (70, 403)
+</td>
+<td headers="Race and Ethnicity stub_1_11 % Benefiting" class="gt_row gt_center">
+21.2 (7.5, 42.2)*
+</td>
+<td headers="Race and Ethnicity stub_1_11 Savings (Beneficiaries)" class="gt_row gt_center">
+$795 (307, 2055)
+</td>
+</tr>
+<tr>
+<th id="stub_1_12" scope="row" class="gt_row gt_center gt_stub">
+Other Race and Ethnicity
+</th>
+<td headers="Race and Ethnicity stub_1_12 Pre-IRA OOP" class="gt_row gt_center">
+$3295 (2264, 4795)
+</td>
+<td headers="Race and Ethnicity stub_1_12 Post-IRA OOP" class="gt_row gt_center">
+$2888 (1999, 4174)
+</td>
+<td headers="Race and Ethnicity stub_1_12 Net Savings" class="gt_row gt_center">
+$407 (104, 1586)*
+</td>
+<td headers="Race and Ethnicity stub_1_12 % Benefiting" class="gt_row gt_center">
+12.4 (1.7, 36.9)*
+</td>
+<td headers="Race and Ethnicity stub_1_12 Savings (Beneficiaries)" class="gt_row gt_center">
+$3269 (1957, 5461)*
+</td>
+</tr>
+<tr class="gt_group_heading_row">
+<th colspan="6" class="gt_group_heading" scope="colgroup" id="Census Region">
+Census Region
+</th>
+</tr>
+<tr class="gt_row_group_first">
+<th id="stub_1_13" scope="row" class="gt_row gt_center gt_stub">
+Northeast
+</th>
+<td headers="Census Region stub_1_13 Pre-IRA OOP" class="gt_row gt_center">
+$5834 (4332, 7857)
+</td>
+<td headers="Census Region stub_1_13 Post-IRA OOP" class="gt_row gt_center">
+$5434 (3968, 7442)
+</td>
+<td headers="Census Region stub_1_13 Net Savings" class="gt_row gt_center">
+$400 (207, 774)
+</td>
+<td headers="Census Region stub_1_13 % Benefiting" class="gt_row gt_center">
+20.4 (13.7, 28.5)
+</td>
+<td headers="Census Region stub_1_13 Savings (Beneficiaries)" class="gt_row gt_center">
+$1964 (1208, 3194)
+</td>
+</tr>
+<tr>
+<th id="stub_1_14" scope="row" class="gt_row gt_center gt_stub">
+Midwest
+</th>
+<td headers="Census Region stub_1_14 Pre-IRA OOP" class="gt_row gt_center">
+$3601 (3182, 4076)
+</td>
+<td headers="Census Region stub_1_14 Post-IRA OOP" class="gt_row gt_center">
+$3312 (2931, 3742)
+</td>
+<td headers="Census Region stub_1_14 Net Savings" class="gt_row gt_center">
+$290 (197, 427)
+</td>
+<td headers="Census Region stub_1_14 % Benefiting" class="gt_row gt_center">
+19.9 (14.2, 26.7)
+</td>
+<td headers="Census Region stub_1_14 Savings (Beneficiaries)" class="gt_row gt_center">
+$1455 (1173, 1805)
+</td>
+</tr>
+<tr>
+<th id="stub_1_15" scope="row" class="gt_row gt_center gt_stub">
+South
+</th>
+<td headers="Census Region stub_1_15 Pre-IRA OOP" class="gt_row gt_center">
+$3951 (3518, 4437)
+</td>
+<td headers="Census Region stub_1_15 Post-IRA OOP" class="gt_row gt_center">
+$3704 (3280, 4182)
+</td>
+<td headers="Census Region stub_1_15 Net Savings" class="gt_row gt_center">
+$247 (171, 359)
+</td>
+<td headers="Census Region stub_1_15 % Benefiting" class="gt_row gt_center">
+20.1 (15.4, 25.6)
+</td>
+<td headers="Census Region stub_1_15 Savings (Beneficiaries)" class="gt_row gt_center">
+$1229 (941, 1605)
+</td>
+</tr>
+<tr>
+<th id="stub_1_16" scope="row" class="gt_row gt_center gt_stub">
+West
+</th>
+<td headers="Census Region stub_1_16 Pre-IRA OOP" class="gt_row gt_center">
+$5271 (4122, 6741)
+</td>
+<td headers="Census Region stub_1_16 Post-IRA OOP" class="gt_row gt_center">
+$5029 (3876, 6525)
+</td>
+<td headers="Census Region stub_1_16 Net Savings" class="gt_row gt_center">
+$242 (138, 425)
+</td>
+<td headers="Census Region stub_1_16 % Benefiting" class="gt_row gt_center">
+20.0 (13.0, 28.7)
+</td>
+<td headers="Census Region stub_1_16 Savings (Beneficiaries)" class="gt_row gt_center">
+$1211 (719, 2040)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr class="gt_sourcenotes">
+<td class="gt_sourcenote" colspan="6">
+<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBPYmVzaXR5LiBNRVBTIDIwMjIgY3Jvc3Mtc2VjdGlvbmFsIGVzdGltYXRlcyBhcHBseSBzcGVjaWZpY2FsbHkgdG8gdGhlIE1lZGljYXJlIGJlbmVmaWNpYXJ5IHBvcHVsYXRpb24uIFZhbHVlcyBhcmUgTWVhbiAoOTUlIENJKS4gJ1ByZS1JUkEgT09QJyByZWZsZWN0cyB0aGUgdW5pdmVyc2FsIENvbWJpbmVkIEdMUC0xUkEgKyBUYXJnZXRlZCBTR0xUMmkgaW5zdXJhbmNlIHBhdGh3YXk7ICdQb3N0LUlSQSBPT1AnIGFwcGxpZXMgdGhlIE1lZGljYXJlIFBhcnQgRCBjYXAuIENvc3RzIGFyZSByZXBvcnRlZCBpbiBKYW4gMjAyNiBVUyBkb2xsYXJzLiBDSXMgZm9yIGNvc3RzIHVzZSBib290c3RyYXAgc3RhbmRhcmQgZXJyb3JzIHdpdGggbG9nLXRyYW5zZm9ybWF0aW9uOyBDSXMgZm9yIHByb3BvcnRpb25zIHVzZSBLb3JuLUdyYXViYXJkIGJldGEgaW50ZXJ2YWxzLiBFc3RpbWF0ZXMgbWFya2VkIHdpdGggYW4gYXN0ZXJpc2sgKCopIGFyZSBjb25zaWRlcmVkIHN0YXRpc3RpY2FsbHkgdW5yZWxpYWJsZSBwZXIgdGhlIDIwMTcgTmF0aW9uYWwgQ2VudGVyIGZvciBIZWFsdGggU3RhdGlzdGljcyBzdGFuZGFyZHMgKGR1ZSB0byBoaWdoIHJlbGF0aXZlIHN0YW5kYXJkIGVycm9yLCBpbnN1ZmZpY2llbnQgZWZmZWN0aXZlIHNhbXBsZSBzaXplLCBvciBsb3cgZGVncmVlcyBvZiBmcmVlZG9tKS4="><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with Obesity. MEPS 2022 cross-sectional estimates apply specifically to the Medicare beneficiary population. Values are Mean (95% CI). ‘Pre-IRA OOP’ reflects the universal Combined GLP-1RA + Targeted SGLT2i insurance pathway; ‘Post-IRA OOP’ applies the Medicare Part D cap. Costs are reported in Jan 2026 US dollars. CIs for costs use bootstrap standard errors with log-transformation; CIs for proportions use Korn-Graubard beta intervals. Estimates marked with an asterisk (*) are considered statistically unreliable per the 2017 National Center for Health Statistics standards (due to high relative standard error, insufficient effective sample size, or low degrees of freedom).</span></span>
+</td>
+</tr>
+</tfoot>
+</table>
+</div>
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Supplementary Table 3. Sensitivity Analysis: Projected Financial Toxicity (FT) Including Non-Medicare Populations.</td>
+</tr>
+</tbody>
+</table>
+<div id="miyfhxxraj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<p><style>#miyfhxxraj table { font-family: system-ui, ‘Segoe UI’, Roboto, Helvetica, Arial, sans-serif, ‘Apple Color Emoji’, ‘Segoe UI Emoji’, ‘Segoe UI Symbol’, ‘Noto Color Emoji’; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</p>
+<p>#miyfhxxraj thead, #miyfhxxraj tbody, #miyfhxxraj tfoot, #miyfhxxraj tr, #miyfhxxraj td, #miyfhxxraj th { border-style: none; }</p>
+<p>#miyfhxxraj p { margin: 0; padding: 0; }</p>
+<p>#miyfhxxraj .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }</p>
+<p>#miyfhxxraj .gt_caption { padding-top: 4px; padding-bottom: 4px; }</p>
+<p>#miyfhxxraj .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }</p>
+<p>#miyfhxxraj .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }</p>
+<p>#miyfhxxraj .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }</p>
+<p>#miyfhxxraj .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }</p>
+<p>#miyfhxxraj .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }</p>
+<p>#miyfhxxraj .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 6px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }</p>
+<p>#miyfhxxraj .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }</p>
+<p>#miyfhxxraj .gt_column_spanner_outer:first-child { padding-left: 0; }</p>
+<p>#miyfhxxraj .gt_column_spanner_outer:last-child { padding-right: 0; }</p>
+<p>#miyfhxxraj .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }</p>
+<p>#miyfhxxraj .gt_spanner_row { border-bottom-style: hidden; }</p>
+<p>#miyfhxxraj .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }</p>
+<p>#miyfhxxraj .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }</p>
+<p>#miyfhxxraj .gt_from_md &gt; :first-child { margin-top: 0; }</p>
+<p>#miyfhxxraj .gt_from_md &gt; :last-child { margin-bottom: 0; }</p>
+<p>#miyfhxxraj .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }</p>
+<p>#miyfhxxraj .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; }</p>
+<p>#miyfhxxraj .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }</p>
+<p>#miyfhxxraj .gt_row_group_first td { border-top-width: 2px; }</p>
+<p>#miyfhxxraj .gt_row_group_first th { border-top-width: 2px; }</p>
+<p>#miyfhxxraj .gt_summary_row { color: #333333; background-color: #FFFFFF; text-transform: inherit; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; }</p>
+<p>#miyfhxxraj .gt_first_summary_row { border-top-style: solid; border-top-color: #D3D3D3; }</p>
+<p>#miyfhxxraj .gt_first_summary_row.thick { border-top-width: 2px; }</p>
+<p>#miyfhxxraj .gt_last_summary_row { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }</p>
+<p>#miyfhxxraj .gt_grand_summary_row { color: #333333; background-color: #FFFFFF; text-transform: inherit; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; }</p>
+<p>#miyfhxxraj .gt_first_grand_summary_row { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; border-top-style: double; border-top-width: 6px; border-top-color: #D3D3D3; }</p>
+<p>#miyfhxxraj .gt_last_grand_summary_row_top { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; border-bottom-style: double; border-bottom-width: 6px; border-bottom-color: #D3D3D3; }</p>
+<p>#miyfhxxraj .gt_striped { background-color: rgba(128, 128, 128, 0.05); }</p>
+<p>#miyfhxxraj .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }</p>
+<p>#miyfhxxraj .gt_footnotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }</p>
+<p>#miyfhxxraj .gt_footnote { margin: 0px; font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; }</p>
+<p>#miyfhxxraj .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }</p>
+<p>#miyfhxxraj .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; }</p>
+<p>#miyfhxxraj .gt_left { text-align: left; }</p>
+<p>#miyfhxxraj .gt_center { text-align: center; }</p>
+<p>#miyfhxxraj .gt_right { text-align: right; font-variant-numeric: tabular-nums; }</p>
+<p>#miyfhxxraj .gt_font_normal { font-weight: normal; }</p>
+<p>#miyfhxxraj .gt_font_bold { font-weight: bold; }</p>
+<p>#miyfhxxraj .gt_font_italic { font-style: italic; }</p>
+<p>#miyfhxxraj .gt_super { font-size: 65%; }</p>
+<p>#miyfhxxraj .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }</p>
+<p>#miyfhxxraj .gt_asterisk { font-size: 100%; vertical-align: 0; }</p>
+<p>#miyfhxxraj .gt_indent_1 { text-indent: 5px; }</p>
+<p>#miyfhxxraj .gt_indent_2 { text-indent: 10px; }</p>
+<p>#miyfhxxraj .gt_indent_3 { text-indent: 15px; }</p>
+<p>#miyfhxxraj .gt_indent_4 { text-indent: 20px; }</p>
+<p>#miyfhxxraj .gt_indent_5 { text-indent: 25px; }</p>
+<p>#miyfhxxraj .katex-display { display: inline-flex !important; margin-bottom: 0.75em !important; }</p>
+#miyfhxxraj div.Reactable &gt; div.rt-table &gt; div.rt-thead &gt; div.rt-tr.rt-tr-group-header &gt; div.rt-th-group:after { height: 0px !important; } </style>
+</p><table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings">
+<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="a::stub">
+</th>
 <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Excl.-Drug-Cost-(95%-CI)">
 Excl. Drug Cost (95% CI)
 </th>
 <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Baseline-(95%-CI)">
 Baseline (95% CI)
 </th>
-<th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Universal-GLP-1-Receptor-Agonist-(95%-CI)">
-Universal GLP-1RA, % (95% CI)
+<th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Universal-GLP-1RA-Plus-Targeted-SGLT2i-(95%-CI)">
+Universal GLP-1RA + Targeted SGLT2i, % (95% CI)
 </th>
 <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Post-IRA-(95%-CI)">
 Post-IRA (95% CI)
@@ -3672,22 +4077,22 @@ Overall Population
 All Patients
 </th>
 <td headers="Overall Population stub_1_1 Excl. Drug Cost (95% CI)" class="gt_row gt_right">
-17.7 (16.1, 19.3)
+17.6 (16.1, 19.3)
 </td>
 <td headers="Overall Population stub_1_1 Baseline (95% CI)" class="gt_row gt_right">
 17.7 (16.1, 19.3)
 </td>
-<td headers="Overall Population stub_1_1 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-22.2 (20.3, 24.1)
+<td headers="Overall Population stub_1_1 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+22.6 (20.7, 24.5)
 </td>
 <td headers="Overall Population stub_1_1 Post-IRA (95% CI)" class="gt_row gt_right">
-21.9 (20.0, 23.8)
+22.1 (20.3, 24.0)
 </td>
 <td headers="Overall Population stub_1_1 ARR" class="gt_row gt_right">
-0.3
+0.5
 </td>
 <td headers="Overall Population stub_1_1 Relative Risk Reduction" class="gt_row gt_right">
-1.3
+2.0
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -3705,11 +4110,11 @@ Age Group
 <td headers="Age Group stub_1_2 Baseline (95% CI)" class="gt_row gt_right">
 17.3 (15.3, 19.3)
 </td>
-<td headers="Age Group stub_1_2 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-21.7 (19.5, 24.0)
+<td headers="Age Group stub_1_2 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+21.8 (19.6, 24.1)
 </td>
 <td headers="Age Group stub_1_2 Post-IRA (95% CI)" class="gt_row gt_right">
-21.7 (19.5, 24.0)
+21.8 (19.6, 24.1)
 </td>
 <td headers="Age Group stub_1_2 ARR" class="gt_row gt_right">
 0.0
@@ -3723,22 +4128,22 @@ Age Group
 65-74 Years
 </th>
 <td headers="Age Group stub_1_3 Excl. Drug Cost (95% CI)" class="gt_row gt_right">
-16.2 (13.2, 19.7)
+16.1 (13.1, 19.6)
 </td>
 <td headers="Age Group stub_1_3 Baseline (95% CI)" class="gt_row gt_right">
 16.2 (13.2, 19.7)
 </td>
-<td headers="Age Group stub_1_3 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-19.7 (16.3, 23.4)
+<td headers="Age Group stub_1_3 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+20.7 (17.2, 24.6)
 </td>
 <td headers="Age Group stub_1_3 Post-IRA (95% CI)" class="gt_row gt_right">
-18.8 (15.6, 22.4)
+19.4 (16.1, 23.0)
 </td>
 <td headers="Age Group stub_1_3 ARR" class="gt_row gt_right">
-0.8
+1.4
 </td>
 <td headers="Age Group stub_1_3 Relative Risk Reduction" class="gt_row gt_right">
-4.3
+6.5
 </td>
 </tr>
 <tr>
@@ -3751,17 +4156,17 @@ Age Group
 <td headers="Age Group stub_1_4 Baseline (95% CI)" class="gt_row gt_right">
 24.3 (19.5, 29.7)
 </td>
-<td headers="Age Group stub_1_4 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-31.6 (26.0, 37.7)
+<td headers="Age Group stub_1_4 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+32.7 (27.1, 38.6)
 </td>
 <td headers="Age Group stub_1_4 Post-IRA (95% CI)" class="gt_row gt_right">
-30.0 (24.6, 35.8)
+30.2 (24.8, 36.0)
 </td>
 <td headers="Age Group stub_1_4 ARR" class="gt_row gt_right">
-1.6
+2.5
 </td>
 <td headers="Age Group stub_1_4 Relative Risk Reduction" class="gt_row gt_right">
-5.2
+7.5
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -3774,22 +4179,22 @@ Sex
 Female
 </th>
 <td headers="Sex stub_1_5 Excl. Drug Cost (95% CI)" class="gt_row gt_right">
-20.8 (18.9, 22.9)
+20.8 (18.8, 22.8)
 </td>
 <td headers="Sex stub_1_5 Baseline (95% CI)" class="gt_row gt_right">
 20.8 (18.9, 22.9)
 </td>
-<td headers="Sex stub_1_5 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-24.7 (22.5, 27.1)
+<td headers="Sex stub_1_5 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+24.7 (22.5, 27.0)
 </td>
 <td headers="Sex stub_1_5 Post-IRA (95% CI)" class="gt_row gt_right">
-24.6 (22.3, 26.9)
+24.5 (22.4, 26.8)
 </td>
 <td headers="Sex stub_1_5 ARR" class="gt_row gt_right">
-0.1
+0.2
 </td>
 <td headers="Sex stub_1_5 Relative Risk Reduction" class="gt_row gt_right">
-0.5
+0.7
 </td>
 </tr>
 <tr>
@@ -3802,17 +4207,17 @@ Male
 <td headers="Sex stub_1_6 Baseline (95% CI)" class="gt_row gt_right">
 14.0 (11.9, 16.4)
 </td>
-<td headers="Sex stub_1_6 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-19.2 (16.6, 22.1)
+<td headers="Sex stub_1_6 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+20.1 (17.4, 23.0)
 </td>
 <td headers="Sex stub_1_6 Post-IRA (95% CI)" class="gt_row gt_right">
-18.7 (16.2, 21.5)
+19.3 (16.7, 22.1)
 </td>
 <td headers="Sex stub_1_6 ARR" class="gt_row gt_right">
-0.5
+0.8
 </td>
 <td headers="Sex stub_1_6 Relative Risk Reduction" class="gt_row gt_right">
-2.6
+4.0
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -3830,11 +4235,11 @@ Low (&lt;125% FPL)
 <td headers="Income Level stub_1_7 Baseline (95% CI)" class="gt_row gt_right">
 71.0 (66.4, 75.3)
 </td>
-<td headers="Income Level stub_1_7 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-80.5 (76.6, 84.1)
+<td headers="Income Level stub_1_7 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+80.8 (77.0, 84.2)
 </td>
 <td headers="Income Level stub_1_7 Post-IRA (95% CI)" class="gt_row gt_right">
-80.5 (76.6, 84.1)
+80.8 (77.0, 84.2)
 </td>
 <td headers="Income Level stub_1_7 ARR" class="gt_row gt_right">
 0.0
@@ -3848,22 +4253,22 @@ Low (&lt;125% FPL)
 Middle (125%-400% FPL)
 </th>
 <td headers="Income Level stub_1_8 Excl. Drug Cost (95% CI)" class="gt_row gt_right">
-15.5 (13.3, 17.9)
+15.4 (13.2, 17.8)
 </td>
 <td headers="Income Level stub_1_8 Baseline (95% CI)" class="gt_row gt_right">
 15.6 (13.4, 18.0)
 </td>
-<td headers="Income Level stub_1_8 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-22.5 (19.9, 25.2)
+<td headers="Income Level stub_1_8 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+23.3 (20.7, 26.1)
 </td>
 <td headers="Income Level stub_1_8 Post-IRA (95% CI)" class="gt_row gt_right">
-21.8 (19.2, 24.5)
+22.3 (19.7, 25.1)
 </td>
 <td headers="Income Level stub_1_8 ARR" class="gt_row gt_right">
-0.7
+1.0
 </td>
 <td headers="Income Level stub_1_8 Relative Risk Reduction" class="gt_row gt_right">
-3.1
+4.2
 </td>
 </tr>
 <tr>
@@ -3876,17 +4281,17 @@ High (&gt;400% FPL)
 <td headers="Income Level stub_1_9 Baseline (95% CI)" class="gt_row gt_right">
 1.2 (0.7, 1.9)
 </td>
-<td headers="Income Level stub_1_9 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-1.5 (0.9, 2.4)
+<td headers="Income Level stub_1_9 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+1.5 (1.0, 2.2)
 </td>
 <td headers="Income Level stub_1_9 Post-IRA (95% CI)" class="gt_row gt_right">
-1.5 (0.9, 2.4)
+1.4 (0.9, 2.1)
 </td>
 <td headers="Income Level stub_1_9 ARR" class="gt_row gt_right">
-0.0
+0.1
 </td>
 <td headers="Income Level stub_1_9 Relative Risk Reduction" class="gt_row gt_right">
-0.0
+5.4
 </td>
 </tr>
 <tr class="gt_group_heading_row">
@@ -3899,22 +4304,22 @@ Race and Ethnicity
 White
 </th>
 <td headers="Race and Ethnicity stub_1_10 Excl. Drug Cost (95% CI)" class="gt_row gt_right">
-17.1 (15.1, 19.4)
+17.1 (15.0, 19.3)
 </td>
 <td headers="Race and Ethnicity stub_1_10 Baseline (95% CI)" class="gt_row gt_right">
 17.1 (15.1, 19.4)
 </td>
-<td headers="Race and Ethnicity stub_1_10 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-20.6 (18.2, 23.2)
+<td headers="Race and Ethnicity stub_1_10 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+20.9 (18.5, 23.5)
 </td>
 <td headers="Race and Ethnicity stub_1_10 Post-IRA (95% CI)" class="gt_row gt_right">
-20.2 (17.9, 22.8)
+20.5 (18.1, 23.0)
 </td>
 <td headers="Race and Ethnicity stub_1_10 ARR" class="gt_row gt_right">
-0.3
+0.5
 </td>
 <td headers="Race and Ethnicity stub_1_10 Relative Risk Reduction" class="gt_row gt_right">
-1.7
+2.2
 </td>
 </tr>
 <tr>
@@ -3927,17 +4332,17 @@ Black
 <td headers="Race and Ethnicity stub_1_11 Baseline (95% CI)" class="gt_row gt_right">
 21.4 (17.5, 25.7)
 </td>
-<td headers="Race and Ethnicity stub_1_11 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-26.7 (22.1, 31.8)
+<td headers="Race and Ethnicity stub_1_11 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+27.8 (23.1, 32.9)
 </td>
 <td headers="Race and Ethnicity stub_1_11 Post-IRA (95% CI)" class="gt_row gt_right">
-26.2 (21.6, 31.3)
+27.0 (22.4, 32.0)
 </td>
 <td headers="Race and Ethnicity stub_1_11 ARR" class="gt_row gt_right">
-0.5
+0.8
 </td>
 <td headers="Race and Ethnicity stub_1_11 Relative Risk Reduction" class="gt_row gt_right">
-1.9
+3.0
 </td>
 </tr>
 <tr>
@@ -3950,17 +4355,17 @@ Hispanic or Latino
 <td headers="Race and Ethnicity stub_1_12 Baseline (95% CI)" class="gt_row gt_right">
 16.7 (13.2, 20.8)
 </td>
-<td headers="Race and Ethnicity stub_1_12 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-25.5 (21.6, 29.7)
+<td headers="Race and Ethnicity stub_1_12 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+25.6 (21.6, 29.9)
 </td>
 <td headers="Race and Ethnicity stub_1_12 Post-IRA (95% CI)" class="gt_row gt_right">
-25.5 (21.6, 29.7)
+25.3 (21.4, 29.6)
 </td>
 <td headers="Race and Ethnicity stub_1_12 ARR" class="gt_row gt_right">
-0.0
+0.3
 </td>
 <td headers="Race and Ethnicity stub_1_12 Relative Risk Reduction" class="gt_row gt_right">
-0.0
+1.1
 </td>
 </tr>
 <tr>
@@ -3973,11 +4378,11 @@ Other Race and Ethnicity
 <td headers="Race and Ethnicity stub_1_13 Baseline (95% CI)" class="gt_row gt_right">
 17.0 (10.9, 24.8)
 </td>
-<td headers="Race and Ethnicity stub_1_13 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-20.2 (13.0, 29.1)
+<td headers="Race and Ethnicity stub_1_13 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+19.8 (12.8, 28.6)
 </td>
 <td headers="Race and Ethnicity stub_1_13 Post-IRA (95% CI)" class="gt_row gt_right">
-20.2 (13.0, 29.1)
+19.8 (12.8, 28.6)
 </td>
 <td headers="Race and Ethnicity stub_1_13 ARR" class="gt_row gt_right">
 0.0
@@ -4001,11 +4406,11 @@ Medicaid or Dual Eligible
 <td headers="Insurance Type stub_1_14 Baseline (95% CI)" class="gt_row gt_right">
 30.8 (26.5, 35.3)
 </td>
-<td headers="Insurance Type stub_1_14 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-33.6 (29.2, 38.2)
+<td headers="Insurance Type stub_1_14 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+33.6 (29.3, 38.2)
 </td>
 <td headers="Insurance Type stub_1_14 Post-IRA (95% CI)" class="gt_row gt_right">
-33.6 (29.2, 38.2)
+33.6 (29.3, 38.2)
 </td>
 <td headers="Insurance Type stub_1_14 ARR" class="gt_row gt_right">
 0.0
@@ -4019,22 +4424,22 @@ Medicaid or Dual Eligible
 Medicare
 </th>
 <td headers="Insurance Type stub_1_15 Excl. Drug Cost (95% CI)" class="gt_row gt_right">
-16.9 (14.1, 20.1)
+16.8 (14.0, 20.0)
 </td>
 <td headers="Insurance Type stub_1_15 Baseline (95% CI)" class="gt_row gt_right">
 16.9 (14.1, 20.1)
 </td>
-<td headers="Insurance Type stub_1_15 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-22.3 (18.9, 25.9)
+<td headers="Insurance Type stub_1_15 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+23.3 (19.8, 27.1)
 </td>
 <td headers="Insurance Type stub_1_15 Post-IRA (95% CI)" class="gt_row gt_right">
-21.0 (17.9, 24.4)
+21.3 (18.1, 24.8)
 </td>
 <td headers="Insurance Type stub_1_15 ARR" class="gt_row gt_right">
-1.3
+2.0
 </td>
 <td headers="Insurance Type stub_1_15 Relative Risk Reduction" class="gt_row gt_right">
-5.8
+8.6
 </td>
 </tr>
 <tr>
@@ -4047,11 +4452,11 @@ Private/Commercial
 <td headers="Insurance Type stub_1_16 Baseline (95% CI)" class="gt_row gt_right">
 13.7 (11.6, 15.9)
 </td>
-<td headers="Insurance Type stub_1_16 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-14.9 (12.8, 17.3)
+<td headers="Insurance Type stub_1_16 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+15.2 (13.0, 17.5)
 </td>
 <td headers="Insurance Type stub_1_16 Post-IRA (95% CI)" class="gt_row gt_right">
-14.9 (12.8, 17.3)
+15.2 (13.0, 17.5)
 </td>
 <td headers="Insurance Type stub_1_16 ARR" class="gt_row gt_right">
 0.0
@@ -4065,16 +4470,16 @@ Private/Commercial
 Uninsured
 </th>
 <td headers="Insurance Type stub_1_17 Excl. Drug Cost (95% CI)" class="gt_row gt_right">
-13.9 (9.3, 19.7)
+13.7 (9.2, 19.4)
 </td>
 <td headers="Insurance Type stub_1_17 Baseline (95% CI)" class="gt_row gt_right">
 13.9 (9.3, 19.7)
 </td>
-<td headers="Insurance Type stub_1_17 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-49.3 (41.6, 57.0)
+<td headers="Insurance Type stub_1_17 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+49.7 (42.0, 57.5)
 </td>
 <td headers="Insurance Type stub_1_17 Post-IRA (95% CI)" class="gt_row gt_right">
-49.3 (41.6, 57.0)
+49.7 (42.0, 57.5)
 </td>
 <td headers="Insurance Type stub_1_17 ARR" class="gt_row gt_right">
 0.0
@@ -4098,17 +4503,17 @@ Northeast
 <td headers="Census Region stub_1_18 Baseline (95% CI)" class="gt_row gt_right">
 17.5 (14.4, 21.0)
 </td>
-<td headers="Census Region stub_1_18 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-20.4 (16.4, 24.9)
+<td headers="Census Region stub_1_18 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+21.2 (17.2, 25.6)
 </td>
 <td headers="Census Region stub_1_18 Post-IRA (95% CI)" class="gt_row gt_right">
-19.2 (15.2, 23.7)
+19.6 (15.7, 24.0)
 </td>
 <td headers="Census Region stub_1_18 ARR" class="gt_row gt_right">
-1.2
+1.5
 </td>
 <td headers="Census Region stub_1_18 Relative Risk Reduction" class="gt_row gt_right">
-5.8
+7.2
 </td>
 </tr>
 <tr>
@@ -4116,22 +4521,22 @@ Northeast
 Midwest
 </th>
 <td headers="Census Region stub_1_19 Excl. Drug Cost (95% CI)" class="gt_row gt_right">
-17.2 (13.8, 21.1)
+17.1 (13.8, 21.0)
 </td>
 <td headers="Census Region stub_1_19 Baseline (95% CI)" class="gt_row gt_right">
 17.4 (14.0, 21.2)
 </td>
-<td headers="Census Region stub_1_19 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-21.2 (16.8, 26.1)
+<td headers="Census Region stub_1_19 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+21.3 (16.9, 26.2)
 </td>
 <td headers="Census Region stub_1_19 Post-IRA (95% CI)" class="gt_row gt_right">
-21.0 (16.6, 25.9)
+21.1 (16.7, 26.0)
 </td>
 <td headers="Census Region stub_1_19 ARR" class="gt_row gt_right">
 0.2
 </td>
 <td headers="Census Region stub_1_19 Relative Risk Reduction" class="gt_row gt_right">
-0.8
+1.1
 </td>
 </tr>
 <tr>
@@ -4144,17 +4549,17 @@ South
 <td headers="Census Region stub_1_20 Baseline (95% CI)" class="gt_row gt_right">
 19.3 (16.9, 21.9)
 </td>
-<td headers="Census Region stub_1_20 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-26.0 (23.3, 28.9)
+<td headers="Census Region stub_1_20 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+26.4 (23.7, 29.3)
 </td>
 <td headers="Census Region stub_1_20 Post-IRA (95% CI)" class="gt_row gt_right">
-25.8 (23.1, 28.7)
+26.1 (23.4, 28.9)
 </td>
 <td headers="Census Region stub_1_20 ARR" class="gt_row gt_right">
-0.2
+0.3
 </td>
 <td headers="Census Region stub_1_20 Relative Risk Reduction" class="gt_row gt_right">
-0.8
+1.2
 </td>
 </tr>
 <tr>
@@ -4167,24 +4572,24 @@ West
 <td headers="Census Region stub_1_21 Baseline (95% CI)" class="gt_row gt_right">
 14.7 (11.7, 18.1)
 </td>
-<td headers="Census Region stub_1_21 Universal GLP-1 Receptor Agonist (95% CI)" class="gt_row gt_right">
-16.6 (13.3, 20.4)
+<td headers="Census Region stub_1_21 Universal GLP-1RA Plus Targeted SGLT2i (95% CI)" class="gt_row gt_right">
+17.0 (13.5, 20.9)
 </td>
 <td headers="Census Region stub_1_21 Post-IRA (95% CI)" class="gt_row gt_right">
-16.6 (13.3, 20.4)
+16.7 (13.3, 20.6)
 </td>
 <td headers="Census Region stub_1_21 ARR" class="gt_row gt_right">
-0.0
+0.3
 </td>
 <td headers="Census Region stub_1_21 Relative Risk Reduction" class="gt_row gt_right">
-0.0
+1.5
 </td>
 </tr>
 </tbody>
 <tfoot>
 <tr class="gt_sourcenotes">
 <td class="gt_sourcenote" colspan="7">
-<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBCTUkgPj0zMC4gTUVQUyAyMDIyIGNyb3NzLXNlY3Rpb25hbCBlc3RpbWF0ZXMuICdVbml2ZXJzYWwgR0xQLTEgUmVjZXB0b3IgQWdvbmlzdCBBZGhlcmVuY2UnIGFzc3VtZXMgMTAwJSBhZGhlcmVuY2UgdG8gaW5jcmV0aW4gbWltZXRpYyB0aGVyYXB5LiBDb3N0cyBhcmUgcmVwb3J0ZWQgaW4gSmFuIDIwMjYgVVMgZG9sbGFycy4gQ0lzIGNhbGN1bGF0ZWQgdXNpbmcgS29ybi1HcmF1YmFyZCBiZXRhIGludGVydmFscyBiYXNlZCBvbiBib290c3RyYXAgc3RhbmRhcmQgZXJyb3JzICgyMDAwIHJlcGxpY2F0ZXMpLiBFc3RpbWF0ZXMgbWFya2VkIHdpdGggYW4gYXN0ZXJpc2sgKCopIGFyZSBjb25zaWRlcmVkIHN0YXRpc3RpY2FsbHkgdW5yZWxpYWJsZSBwZXIgdGhlIDIwMTcgTmF0aW9uYWwgQ2VudGVyIGZvciBIZWFsdGggU3RhdGlzdGljcyBzdGFuZGFyZHMgKGR1ZSB0byBoaWdoIHJlbGF0aXZlIHN0YW5kYXJkIGVycm9yLCBpbnN1ZmZpY2llbnQgZWZmZWN0aXZlIHNhbXBsZSBzaXplLCBvciBsb3cgZGVncmVlcyBvZiBmcmVlZG9tKS4gTm90ZTogSW1wYWN0IGlzIGRpbHV0ZWQgYXMgfjQwJSBvZiB0aGUgcG9wdWxhdGlvbiAoQ29tbWVyY2lhbC9NZWRpY2FpZCkgaXMgaW5lbGlnaWJsZSBmb3IgdGhlIElSQSBjYXAuIFRoZSAnRXhjbC4gRHJ1ZyBDb3N0JyBjb2x1bW4gcmVwcmVzZW50cyB0aGUgYmFzZWxpbmUgcHJldmFsZW5jZSBvZiBmaW5hbmNpYWwgdG94aWNpdHkgYWZ0ZXIgbWF0aGVtYXRpY2FsbHkgc2V0dGluZyB0aGUgb2JzZXJ2ZWQgb3V0LW9mLXBvY2tldCBjb3N0cyBmb3IgdGhlIHRhcmdldGVkIHRoZXJhcGllcyB0byB6ZXJvIHRvIGlsbHVzdHJhdGUgdGhlIGJhY2tncm91bmQgZWNvbm9taWMgYnVyZGVuLg=="><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with BMI &gt;=30. MEPS 2022 cross-sectional estimates. ‘Universal GLP-1 Receptor Agonist Adherence’ assumes 100% adherence to incretin mimetic therapy. Costs are reported in Jan 2026 US dollars. CIs calculated using Korn-Graubard beta intervals based on bootstrap standard errors (2000 replicates). Estimates marked with an asterisk (*) are considered statistically unreliable per the 2017 National Center for Health Statistics standards (due to high relative standard error, insufficient effective sample size, or low degrees of freedom). Note: Impact is diluted as ~40% of the population (Commercial/Medicaid) is ineligible for the IRA cap. The ‘Excl. Drug Cost’ column represents the baseline prevalence of financial toxicity after mathematically setting the observed out-of-pocket costs for the targeted therapies to zero to illustrate the background economic burden.</span></span>
+<span data-qmd-base64="Kk5vdGVzOiogQW5hbHl0aWMgY29ob3J0OiBVUyBBZHVsdHMgd2l0aCBPYmVzaXR5LiBNRVBTIDIwMjIgY3Jvc3Mtc2VjdGlvbmFsIGVzdGltYXRlcy4gJ1VuaXZlcnNhbCBHTFAtMVJBICsgVGFyZ2V0ZWQgU0dMVDJpJyBhc3N1bWVzIDEwMCUgYWRoZXJlbmNlIHRvIEdMUC0xIHJlY2VwdG9yIGFnb25pc3QgdGhlcmFweSBhbW9uZyBhZHVsdHMgd2l0aCBvYmVzaXR5IGFuZCAxMDAlIGFkaGVyZW5jZSB0byBTR0xUMiBpbmhpYml0b3IgdGhlcmFweSBvbmx5IGFtb25nIGNvaG9ydCBtZW1iZXJzIHdpdGggdHlwZSAyIGRpYWJldGVzLCBoZWFydCBmYWlsdXJlLCBvciBjaHJvbmljIGtpZG5leSBkaXNlYXNlLiBDb3N0cyBhcmUgcmVwb3J0ZWQgaW4gSmFuIDIwMjYgVVMgZG9sbGFycy4gQ0lzIGNhbGN1bGF0ZWQgdXNpbmcgS29ybi1HcmF1YmFyZCBiZXRhIGludGVydmFscyBiYXNlZCBvbiBib290c3RyYXAgc3RhbmRhcmQgZXJyb3JzICgyMDAwIHJlcGxpY2F0ZXMpLiBFc3RpbWF0ZXMgbWFya2VkIHdpdGggYW4gYXN0ZXJpc2sgKCopIGFyZSBjb25zaWRlcmVkIHN0YXRpc3RpY2FsbHkgdW5yZWxpYWJsZSBwZXIgdGhlIDIwMTcgTmF0aW9uYWwgQ2VudGVyIGZvciBIZWFsdGggU3RhdGlzdGljcyBzdGFuZGFyZHMgKGR1ZSB0byBoaWdoIHJlbGF0aXZlIHN0YW5kYXJkIGVycm9yLCBpbnN1ZmZpY2llbnQgZWZmZWN0aXZlIHNhbXBsZSBzaXplLCBvciBsb3cgZGVncmVlcyBvZiBmcmVlZG9tKS4gTm90ZTogSW1wYWN0IGlzIGRpbHV0ZWQgYXMgfjQwJSBvZiB0aGUgcG9wdWxhdGlvbiAoQ29tbWVyY2lhbC9NZWRpY2FpZCkgaXMgaW5lbGlnaWJsZSBmb3IgdGhlIElSQSBjYXAuIFRoZSAnRXhjbC4gRHJ1ZyBDb3N0JyBjb2x1bW4gcmVwcmVzZW50cyB0aGUgYmFzZWxpbmUgcHJldmFsZW5jZSBvZiBmaW5hbmNpYWwgdG94aWNpdHkgYWZ0ZXIgbWF0aGVtYXRpY2FsbHkgc2V0dGluZyB0aGUgb2JzZXJ2ZWQgb3V0LW9mLXBvY2tldCBjb3N0cyBmb3IgdGhlIHRhcmdldGVkIHRoZXJhcGllcyB0byB6ZXJvIHRvIGlsbHVzdHJhdGUgdGhlIGJhY2tncm91bmQgZWNvbm9taWMgYnVyZGVuLg=="><span class="gt_from_md"><em>Notes:</em> Analytic cohort: US Adults with Obesity. MEPS 2022 cross-sectional estimates. ‘Universal GLP-1RA + Targeted SGLT2i’ assumes 100% adherence to GLP-1 receptor agonist therapy among adults with obesity and 100% adherence to SGLT2 inhibitor therapy only among cohort members with type 2 diabetes, heart failure, or chronic kidney disease. Costs are reported in Jan 2026 US dollars. CIs calculated using Korn-Graubard beta intervals based on bootstrap standard errors (2000 replicates). Estimates marked with an asterisk (*) are considered statistically unreliable per the 2017 National Center for Health Statistics standards (due to high relative standard error, insufficient effective sample size, or low degrees of freedom). Note: Impact is diluted as ~40% of the population (Commercial/Medicaid) is ineligible for the IRA cap. The ‘Excl. Drug Cost’ column represents the baseline prevalence of financial toxicity after mathematically setting the observed out-of-pocket costs for the targeted therapies to zero to illustrate the background economic burden.</span></span>
 </td>
 </tr>
 </tfoot>
@@ -4196,15 +4601,11 @@ West
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Supplementary Figure 1. Annualized GLP-1RA Out-of-Pocket Cost Density Distributions Before and After PMM Imputation by Insurance Type (Jan 2026 US dollars).</td>
+<td>Supplementary Figure 1. Drug-Specific Annualized Out-of-Pocket Cost Density Distributions Before and After PMM Imputation Under Simultaneous Universal GLP-1RA Therapy and Targeted SGLT2i Therapy (Jan 2026 US dollars).</td>
 </tr>
 </tbody>
 </table>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="obese_files/figure-html/unnamed-chunk-1-5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="obese_files/figure-html/unnamed-chunk-1-5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
-</figure>
-</div>
+<p><img src="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-6.png" class="img-fluid quarto-figure quarto-figure-center" style="width:100.0%"><img src="aha_abstract_analysis_files/figure-html/unnamed-chunk-1-7.png" class="img-fluid quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </div>
 
 
